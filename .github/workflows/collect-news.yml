@@ -1,6 +1,9 @@
 name: 기사 수집 연결 테스트
 on:
   workflow_dispatch:
+  schedule:
+    # UTC 23:30 = 다음 날 한국 시간 08:30
+    - cron: '30 23 * * *'
 permissions:
   contents: write
   pages: write
@@ -47,3 +50,4 @@ jobs:
       - name: 웹페이지 게시
         id: deploy
         uses: actions/deploy-pages@v4
+
