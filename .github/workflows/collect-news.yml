@@ -1,0 +1,46 @@
+name: 기사 수집 연결 테스트
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: coin-news-collector
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: RSS 수집 및 화면 갱신
+        run: node collect-news.mjs
+      - name: 결과 저장
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html news.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update coin news from RSS"
+            git push origin HEAD:main
+          fi
+      - name: 게시할 파일 준비
+        run: |
+          mkdir -p public
+          cp index.html news.json public/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - name: 웹페이지 게시
+        id: deploy
+        uses: actions/deploy-pages@v4
