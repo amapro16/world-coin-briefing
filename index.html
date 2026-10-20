@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>세계 비유통 주화 브리핑 — 화면 시안</title>
+<style>
+/* 색상과 공통 설정 */
+:root { --navy:#172d43; --green:#176458; --muted:#647285; --line:#dce3ea; }
+* { box-sizing:border-box; }
+body { margin:0; background:#f4f6f8; color:#233447; font:16px/1.7 system-ui,"Malgun Gothic",sans-serif; }
+button,input { font:inherit; }
+button:disabled,input:disabled { opacity:1; -webkit-text-fill-color:currentColor; }
+button:disabled { cursor:default; }
+header { background:var(--navy); color:white; }
+.wrap { width:min(1080px,100%); margin:auto; padding:28px 24px; }
+.brand { font-size:12px; letter-spacing:2px; color:#c2d1de; }
+h1 { margin:4px 0; font-size:30px; letter-spacing:-1px; }
+.subtitle { margin:0; color:#d5dfe7; font-size:14px; }
+.notice { margin:0 0 22px; border:1px solid #e6d7b5; background:#fff9ec; padding:12px 16px; border-radius:8px; font-size:14px; color:#725621; }
+.overview { display:grid; grid-template-columns:1.5fr 1fr 1fr; gap:14px; margin-bottom:26px; }
+.metric { padding:18px 20px; background:white; border:1px solid var(--line); border-radius:10px; }
+.metric span { display:block; color:var(--muted); font-size:13px; }
+.metric strong { display:block; font-size:23px; margin:4px 0; color:var(--navy); }
+.metric small { color:var(--muted); font-size:12px; }
+.section-title { display:flex; justify-content:space-between; align-items:baseline; gap:12px; margin-bottom:12px; }
+h2 { font-size:20px; margin:0; }
+.caption { font-size:13px; color:var(--muted); }
+.toolbar { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px; }
+.tabs { display:flex; flex-wrap:wrap; gap:6px; }
+.tab,.archive { border:1px solid var(--line); border-radius:7px; background:white; color:#45566a; padding:9px 13px; font-size:14px; }
+.tab.active { background:var(--navy); color:white; border-color:var(--navy); }
+.search { width:260px; min-height:44px; padding:9px 12px; background:white; color:var(--muted); border:1px solid var(--line); border-radius:7px; }
+.article-list { display:grid; gap:18px; }
+article { background:white; border:1px solid var(--line); border-radius:12px; overflow:hidden; }
+.card-body { padding:24px; }
+.tags { display:flex; flex-wrap:wrap; align-items:center; gap:7px; font-size:12px; }
+.tag { padding:3px 9px; border-radius:5px; background:#f0f3f6; color:#46576a; }
+.category { background:#e6f2ed; color:#175f50; font-weight:700; }
+.demand { background:#eaf0fc; color:#345b96; }
+.policy { background:#f2edfa; color:#735296; }
+h3 { font-size:21px; line-height:1.5; margin:14px 0 12px; letter-spacing:-.4px; }
+.summary { margin:0; color:#465467; word-break:keep-all; overflow-wrap:anywhere; }
+.numbers { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); margin:20px 0 0; padding:16px; gap:14px; background:#f7f9fb; border-radius:8px; }
+.numbers dt { font-size:12px; color:var(--muted); }
+.numbers dd { margin:4px 0 0; font-size:16px; font-weight:700; color:var(--navy); }
+.no-number { margin:18px 0 0; font-size:13px; color:var(--muted); }
+.card-footer { border-top:1px solid #edf0f4; padding:14px 24px; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px; }
+.source { font-size:12px; color:var(--muted); }
+.source strong { color:#45566a; font-weight:600; }
+.original { background:white; border:1px solid #9ebbb3; color:var(--green); padding:8px 13px; border-radius:6px; font-size:13px; white-space:nowrap; }
+.bottom { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; gap:12px; margin-top:24px; }
+footer { border-top:1px solid var(--line); margin-top:30px; padding-top:18px; font-size:12px; color:var(--muted); }
+@media(max-width:640px) {
+  .wrap { padding:22px 16px; }
+  h1 { font-size:26px; }
+  .overview { grid-template-columns:1fr 1fr; gap:10px; }
+  .metric:first-child { grid-column:1/-1; }
+  .metric { padding:14px 16px; }
+  .metric strong { font-size:21px; }
+  .toolbar,.search { width:100%; }
+  .tabs { width:100%; }
+  .tab { flex:1 1 auto; padding:9px 10px; font-size:13px; }
+  .card-body { padding:19px; }
+  h3 { font-size:19px; }
+  .summary { font-size:15px; }
+  .numbers { grid-template-columns:1fr; gap:10px; }
+  .numbers > div { display:flex; justify-content:space-between; align-items:baseline; gap:12px; }
+  .numbers dd { margin:0; }
+  .card-footer { padding:14px 19px; }
+}
+
+/* 대표 이미지가 있는 기사에만 figure를 추가합니다. 없으면 no-image를 사용합니다. */
+.article-lead.no-image { grid-template-columns:minmax(0,1fr); }
+.article-lead.no-image h3 { margin-top:12px; }
+.article-lead { display:grid; grid-template-columns:196px minmax(0,1fr); gap:24px; align-items:center; margin-bottom:20px; }
+.article-lead h3 { margin:12px 0; }
+.coin-visual { margin:0; background:#f4eee2; border:1px solid #eadfc8; border-radius:10px; overflow:hidden; }
+.coin-visual.silver { background:#edf2f7; border-color:#dde5ed; }
+.coin-visual.policy-visual { background:#eeedf5; border-color:#dfddea; }
+.coin-visual svg { display:block; width:100%; height:auto; }
+.coin-visual figcaption { font-size:11px; text-align:center; padding:0 8px 10px; color:#657083; }
+.keywords { display:flex; flex-wrap:wrap; gap:7px; margin-top:12px; }
+.keyword { display:inline-flex; padding:5px 11px; border:1px solid #b9d6cb; background:#edf7f1; border-radius:6px; color:#155542; font-size:14px; font-weight:700; }
+.keyword.blue { background:#edf3fd; border-color:#c3d3ec; color:#2b528e; }
+.keyword.purple { background:#f3effa; border-color:#d6c8e8; color:#69458e; }
+.summary strong { font-weight:700; color:#203e50; }
+.numbers dd { font-size:20px; }
+@media(max-width:640px) {
+ .article-lead { grid-template-columns:1fr; gap:16px; }
+ .coin-visual { display:flex; align-items:center; justify-content:center; gap:12px; padding:4px 12px; }
+ .coin-visual svg { width:142px; flex:none; }
+ .coin-visual figcaption { max-width:125px; padding:0; text-align:left; }
+ .keyword { font-size:13px; }
+ .numbers dd { font-size:18px; }
+}
+</style>
+
+<style>
+[hidden]{display:none!important}button:not(:disabled){cursor:pointer}button:hover{filter:brightness(.96)}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #2886be;outline-offset:3px}.original{text-decoration:none;display:inline-block}.coin-visual img{display:block;width:100%;max-height:210px;object-fit:contain}.data-tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:14px}#status{font-size:14px;color:#155542;min-height:24px;margin-bottom:14px}#history{padding:20px;background:white;border:1px solid var(--line);border-radius:10px;margin-top:18px}#history button{display:block;margin-top:10px}#empty{padding:30px;text-align:center;color:var(--muted)}
+</style></head>
+<body>
+<header><div class="wrap">
+  <div class="brand">WORLD COIN BRIEFING</div>
+  <h1>세계 비유통 주화 브리핑</h1>
+  <p class="subtitle">불리온 · 기념주화 · 수집형 주화의 세계 소식을 한눈에 살펴봅니다.</p>
+</div></header>
+<main class="wrap">
+  <p class="notice"><strong>화면 구성 시안</strong> · 아래 기사·수치·주화 이미지는 모두 가상 예시입니다. 대표 이미지는 있을 때만 표시합니다. 검색·분류 버튼을 사용할 수 있습니다. 실제 기사 자동 수집은 아직 연결하지 않았습니다.</p>
+  <section class="overview" aria-label="수집 현황 예시">
+    <div class="metric"><span>마지막 갱신 · 예시</span><strong>오전 08:42</strong><small>한국 시간 · 수집 시작 예정 08:30</small></div>
+    <div class="metric"><span>새 소식 · 예시</span><strong>3건</strong><small>같은 소식은 묶어서 표시</small></div>
+    <div class="metric"><span>현재 수집 범위</span><strong>투자용 불리온</strong><small>기념주화 · 수집형 주화로 확장 예정</small></div>
+  </section>
+  <section aria-labelledby="news-heading">
+    <div class="section-title"><h2 id="news-heading">오늘의 브리핑</h2><span class="caption">최신 발행순 · 예시 3건</span></div>
+    <div class="data-tools"><button id="import" class="archive" type="button">기사 JSON 불러오기</button><button id="demo" class="archive" type="button">가상 예시 보기</button><input id="file" type="file" accept=".json,application/json" hidden></div><div id="status" role="status" aria-live="polite"></div><div class="toolbar">
+      <nav class="tabs" aria-label="소식 카테고리">
+        <button class="tab active" type="button">전체 3</button>
+        <button class="tab" type="button">신제품·발행 1</button>
+        <button class="tab" type="button">판매·수요 1</button>
+        <button class="tab" type="button">제도·정책 1</button>
+      </nav>
+      <input class="search" type="search" aria-label="기사 검색" placeholder="국가 · 주화명 · 키워드 검색">
+    </div>
+    <div class="article-list">
+      <article aria-labelledby="article-1">
+        <div class="card-body">
+          <div class="article-lead"><figure class="coin-visual "><svg viewBox="0 0 220 180" role="img" aria-labelledby="coin-title-0"><title id="coin-title-0">금빛 주화와 잎 문양를 표현한 예시 일러스트</title><defs><linearGradient id="metal-0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff0b9"/><stop offset=".48" stop-color="#d8b365"/><stop offset=".72" stop-color="#fff0b9"/><stop offset="1" stop-color="#d8b365"/></linearGradient></defs><ellipse cx="110" cy="154" rx="63" ry="8" fill="#96702b" opacity=".12"/><circle cx="110" cy="88" r="69" fill="#96702b"/><circle cx="110" cy="85" r="68" fill="url(#metal-0)" stroke="#96702b" stroke-width="2"/><circle cx="110" cy="85" r="60" fill="none" stroke="#96702b" stroke-width="2" stroke-dasharray="1 4"/><circle cx="110" cy="85" r="54" fill="none" stroke="#96702b" opacity=".6"/><path d="M110 54l10 23 15-6-5 19 17 6-29 18 4 15-12-5-12 5 4-15-29-18 17-6-5-19 15 6z" fill="#b98c38" stroke="#96702b" stroke-width="1.5"/><path d="M110 86v44" stroke="#96702b" stroke-width="2"/><text x="110" y="47" text-anchor="middle" fill="#96702b" font-size="8" font-family="sans-serif" letter-spacing="2">DESIGN STUDY</text><text x="110" y="136" text-anchor="middle" fill="#96702b" font-size="9" font-family="sans-serif" letter-spacing="2">9999</text></svg><figcaption>기사 주제 일러스트<br>실제 제품 이미지 아님</figcaption></figure><div><div class="tags"><span class="tag category">신제품·발행</span><span class="tag">캐나다</span><span class="tag">금화</span><span class="tag">투자용 불리온</span></div><h3 id="article-1">[가상 예시] 새로운 디자인의 투자용 금화 발행 계획 공개</h3><div class="keywords" aria-label="기사 핵심 키워드"><span class="keyword">신규 디자인</span><span class="keyword">1트로이온스</span><span class="keyword">순도 99.99%</span></div></div></div>
+          <p class="summary">한 조폐기관이 새로운 디자인의 투자용 금화 발행 계획을 발표했다는 가상의 소식입니다. 제품 규격은 <strong>순금 1트로이온스, 순도 99.99%</strong>로 가정했습니다. 출시 일정과 유통 방식은 공식 발표에서 확인하도록 표시합니다. 최대 발행 한도는 공개되지 않은 상황을 예시로 구성했습니다.</p>
+          <dl class="numbers" aria-label="핵심 규격 — 가상 수치">
+            <div><dt>중량</dt><dd>1트로이온스</dd></div>
+            <div><dt>순도</dt><dd>99.99%</dd></div>
+            <div><dt>최대 발행 한도</dt><dd>미공개</dd></div>
+          </dl>
+        </div>
+        <div class="card-footer"><div class="source"><strong>출처: 예시 공식기관</strong><br>기사 발행일: YYYY.MM.DD · 공식 발표 기준</div><button class="original" type="button">원문 기사 보기 ↗</button></div>
+      </article>
+      <article aria-labelledby="article-2">
+        <div class="card-body">
+          <div class="article-lead"><figure class="coin-visual silver"><svg viewBox="0 0 220 180" role="img" aria-labelledby="coin-title-1"><title id="coin-title-1">은빛 주화와 산 문양를 표현한 예시 일러스트</title><defs><linearGradient id="metal-1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fcfdff"/><stop offset=".48" stop-color="#b9c7d5"/><stop offset=".72" stop-color="#fcfdff"/><stop offset="1" stop-color="#b9c7d5"/></linearGradient></defs><ellipse cx="110" cy="154" rx="63" ry="8" fill="#657c91" opacity=".12"/><circle cx="110" cy="88" r="69" fill="#657c91"/><circle cx="110" cy="85" r="68" fill="url(#metal-1)" stroke="#657c91" stroke-width="2"/><circle cx="110" cy="85" r="60" fill="none" stroke="#657c91" stroke-width="2" stroke-dasharray="1 4"/><circle cx="110" cy="85" r="54" fill="none" stroke="#657c91" opacity=".6"/><path d="M72 114l19-27 14 13 17-33 23 47z" fill="#7d92a6"/><path d="M91 87l-5 16 11-7 8 4zM122 67l-5 21 8-7 8 9z" fill="#f9fcff"/><text x="110" y="47" text-anchor="middle" fill="#657c91" font-size="8" font-family="sans-serif" letter-spacing="2">DESIGN STUDY</text><text x="110" y="136" text-anchor="middle" fill="#657c91" font-size="9" font-family="sans-serif" letter-spacing="2">9999</text></svg><figcaption>기사 주제 일러스트<br>실제 제품 이미지 아님</figcaption></figure><div><div class="tags"><span class="tag category demand">판매·수요</span><span class="tag">호주</span><span class="tag">은화</span><span class="tag">투자용 불리온</span></div><h3 id="article-2">[가상 예시] 월간 불리온 은화 판매량, 전월 대비 증가</h3><div class="keywords" aria-label="기사 핵심 키워드"><span class="keyword blue">월간 판매량</span><span class="keyword blue">120만 개</span><span class="keyword blue">전월 대비 +20%</span></div></div></div>
+          <p class="summary">한 조폐기관이 월간 불리온 은화 판매 실적을 발표했다는 가상의 소식입니다. 해당 월 판매량은 120만 개로, 전월 100만 개보다 <strong>20% 증가</strong>한 것으로 가정했습니다. 판매량 증가의 원인은 확인되지 않아 수요 급증으로 단정하지 않습니다. 이 수치는 판매 수량이며 실제 주조량이나 최대 발행 한도를 뜻하지 않습니다.</p>
+          <dl class="numbers" aria-label="핵심 판매 수치 — 가상 수치">
+            <div><dt>대상 월 판매량</dt><dd>120만 개</dd></div>
+            <div><dt>전월 판매량</dt><dd>100만 개</dd></div>
+            <div><dt>전월 대비</dt><dd>+20%</dd></div>
+          </dl>
+        </div>
+        <div class="card-footer"><div class="source"><strong>출처: 예시 전문매체</strong><br>기사 발행일: YYYY.MM.DD · 공식 자료 대조 필요</div><button class="original" type="button">원문 기사 보기 ↗</button></div>
+      </article>
+      <article aria-labelledby="article-3">
+        <div class="card-body">
+          <div class="article-lead no-image"><div><div class="tags"><span class="tag category policy">제도·정책</span><span class="tag">미국</span><span class="tag">유통 제도</span><span class="tag">투자용 불리온</span></div><h3 id="article-3">[가상 예시] 불리온 주화 유통 절차 변경안 발표</h3><div class="keywords" aria-label="기사 핵심 키워드"><span class="keyword purple">유통 절차 변경</span><span class="keyword purple">검토 단계</span><span class="keyword purple">시행일 미확정</span></div></div></div>
+          <p class="summary">한 기관이 불리온 주화의 유통 절차 변경안을 발표했다는 가상의 소식입니다. 지정 유통업체의 신청과 보고 절차가 주요 검토 대상으로 제시된 상황을 가정했습니다. <strong>아직 확정된 정책이 아니므로</strong> 시행 중인 제도와 구분해 표시합니다. 최종 적용 대상과 시행일은 공식 문서 확인이 필요한 항목입니다.</p>
+          <p class="no-number">핵심 수치 없음 · 정책 상태: 검토안 / 시행일: 미확정</p>
+        </div>
+        <div class="card-footer"><div class="source"><strong>출처: 예시 공식기관</strong><br>기사 발행일: YYYY.MM.DD · 검토안 기준</div><button class="original" type="button">원문 기사 보기 ↗</button></div>
+      </article>
+    </div>
+    <p id="empty" hidden>검색 조건에 맞는 기사가 없습니다.</p><section id="history" hidden aria-label="지난 브리핑 목록"></section><div class="bottom"><span class="caption">요약 3~5문장 · 확인 가능한 핵심 수치 최대 3개</span><button class="archive" type="button">지난 브리핑 보기 →</button></div>
+  </section>
+  <footer>수집 대상: 투자용 불리온 주화 중심. 프루프·수집형 주화는 향후 확장 예정입니다.<br>JSON을 불러오면 원문 링크로 연결됩니다. 지난 기록은 이 기기의 브라우저에만 저장되며, 자동 수집·기기 간 동기화는 아직 연결 전입니다.</footer>
+</main>
+<script>
+// 외부 기사 내용은 textContent로 안전하게 표시합니다.
+const list=document.querySelector('.article-list');
+const example=list.innerHTML;
+const tabs=[...document.querySelectorAll('.tab')];
+const search=document.querySelector('.search');
+const notice=document.querySelector('.notice');
+const names=['전체','신제품·발행','판매·수요','제도·정책'];
+let selected='전체', history=[], current=null;
+const historyKey='world-coin-briefing-history-v1';
+const status=document.getElementById('status');
+function say(text){ status.textContent=text; }
+function url(value){ try{ const u=new URL(value); return ['http:','https:'].includes(u.protocol)?u.href:''; }catch{return '';} }
+function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
+function filter(){
+ const q=search.value.trim().toLocaleLowerCase(); let count=0;
+ for(const a of list.querySelectorAll('article')){
+  const cat=a.querySelector('.category')?.textContent;
+  a.hidden=!((selected==='전체'||cat===selected)&&a.textContent.toLocaleLowerCase().includes(q));
+  if(!a.hidden)count++;
+ }
+ document.getElementById('empty').hidden=count!==0;
+ document.querySelector('.section-title .caption').textContent='표시 '+count+'건 / 전체 '+list.children.length+'건';
+ tabs.forEach((t,i)=>{const count=i? [...list.children].filter(a=>a.querySelector('.category')?.textContent===names[i]).length:list.children.length;t.textContent=names[i]+' '+count;t.classList.toggle('active',selected===names[i]);t.setAttribute('aria-pressed',String(selected===names[i]));});
+}
+function resetFilter(){selected='전체';search.value='';filter();}
+function date(value){return value?new Date(value).toLocaleString('ko-KR',{timeZone:'Asia/Seoul'}):'미상';}
+function validate(data){
+ if(!data||!Array.isArray(data.articles)||data.articles.length>300)throw Error('articles 배열이 있는 JSON 파일이 필요합니다. 한 번에 최대 300건입니다.');
+ if(!data.generatedAt||!Number.isFinite(Date.parse(data.generatedAt)))throw Error('올바른 generatedAt 시각이 필요합니다.');
+ for(const a of data.articles){
+  if(!a||typeof a.title!=='string'||!a.title.trim()||typeof a.summary!=='string'||!url(a.url))throw Error('각 기사에는 title, summary, 올바른 http/https 원문 url이 필요합니다.');
+  if(!names.slice(1).includes(a.category))throw Error('category는 신제품·발행, 판매·수요, 제도·정책 중 하나여야 합니다.');
+  if(a.published&&!Number.isFinite(Date.parse(a.published)))throw Error('기사 published 날짜가 올바르지 않습니다.');
+  if(a.keywords!==undefined&&(!Array.isArray(a.keywords)||!a.keywords.every(k=>typeof k==='string')))throw Error('keywords는 문자열 배열이어야 합니다.');
+  if(a.figures!==undefined&&(!Array.isArray(a.figures)||!a.figures.every(f=>f&&typeof f.label==='string'&&typeof f.value==='string')))throw Error('figures에는 label과 value 문자열이 필요합니다.');
+  for(const key of ['publisher','country','coinType','metal','imageUrl'])if(a[key]!==undefined&&typeof a[key]!=='string')throw Error(key+'는 문자열이어야 합니다.');
+ }
+ return data;
+}
+function show(data){
+ current=data;list.replaceChildren();
+ for(const a of data.articles){
+  const card=el('article');const body=el('div','card-body');const lead=el('div','article-lead no-image');const content=el('div');
+  const tags=el('div','tags');const style=a.category==='판매·수요'?' demand':a.category==='제도·정책'?' policy':'';
+  tags.append(el('span','tag category'+style,a.category));
+  for(const v of [a.country,a.metal,a.coinType].filter(Boolean))tags.append(el('span','tag',v));
+  content.append(tags,el('h3','',a.title));
+  const keywords=el('div','keywords');keywords.setAttribute('aria-label','기사 핵심 키워드');
+  for(const k of (a.keywords||[]).slice(0,3))keywords.append(el('span','keyword',k));
+  content.append(keywords);
+  if(url(a.imageUrl)){
+   const figure=el('figure','coin-visual');const img=el('img');img.alt=a.title+' 관련 이미지';img.loading='lazy';img.referrerPolicy='no-referrer';
+   img.addEventListener('error',()=>{figure.remove();lead.classList.add('no-image');});img.src=url(a.imageUrl);figure.append(img);lead.append(figure);lead.classList.remove('no-image');
+  }
+  lead.append(content);body.append(lead,el('p','summary',a.summary));
+  if(a.figures?.length){const dl=el('dl','numbers');for(const f of a.figures.slice(0,3)){const d=el('div');d.append(el('dt','',f.label),el('dd','',f.value));dl.append(d);}body.append(dl);}
+  const foot=el('div','card-footer');const source=el('div','source');source.append(el('strong','',a.publisher||'출처 미상'),el('br'),document.createTextNode('기사 발행: '+date(a.published)));
+  const link=el('a','original','원문 기사 보기 ↗');link.href=url(a.url);link.target='_blank';link.rel='noopener noreferrer';foot.append(source,link);card.append(body,foot);list.append(card);
+ }
+ const metrics=document.querySelectorAll('.metric strong');metrics[0].textContent=date(data.generatedAt);metrics[1].textContent=data.articles.length+'건';
+ notice.textContent=data.demo?'가상 예시 데이터입니다. 실제 뉴스가 아닙니다.':'불러온 기사 데이터 · 마지막 생성: '+date(data.generatedAt)+' (한국 시간). 실시간 수집 연결 전에는 자동 갱신되지 않습니다.';
+ document.getElementById('news-heading').textContent='브리핑 · '+date(data.generatedAt);
+ resetFilter();
+}
+function save(data){
+ history=history.filter(h=>h.generatedAt!==data.generatedAt);history.unshift(data);history=history.slice(0,30);
+ try{localStorage.setItem(historyKey,JSON.stringify(history));say('기사를 불러왔습니다. 이 브라우저에 최근 30회 브리핑을 보관합니다.');}
+ catch{say('기사는 불러왔지만 브라우저 저장 공간 제한으로 지난 기록을 저장하지 못했습니다.');}
+}
+function archive(){
+ const panel=document.getElementById('history');panel.replaceChildren(el('h2','','지난 브리핑'));
+ if(!history.length)panel.append(el('p','','저장된 브리핑이 없습니다. 기사 JSON을 불러오면 이 브라우저에 기록됩니다.'));
+ for(const data of history){const b=el('button','archive',date(data.generatedAt)+' · '+data.articles.length+'건');b.type='button';b.addEventListener('click',()=>{show(data);say('저장된 브리핑을 표시했습니다.');});panel.append(b);}
+}
+for(const [i,t] of tabs.entries())t.addEventListener('click',()=>{selected=names[i];filter();});
+search.addEventListener('input',filter);
+list.addEventListener('click',event=>{if(event.target.closest('button.original'))say('이 기사는 가상 예시이므로 원문이 없습니다. 실제 기사 데이터를 불러오면 원문 링크가 활성화됩니다.');});
+document.querySelector('.bottom .archive').addEventListener('click',()=>{const p=document.getElementById('history');p.hidden=!p.hidden;document.querySelector('.bottom .archive').setAttribute('aria-expanded',String(!p.hidden));if(!p.hidden)archive();});
+document.getElementById('import').addEventListener('click',()=>document.getElementById('file').click());
+document.getElementById('file').addEventListener('change',async event=>{
+ const f=event.target.files[0];if(!f)return;
+ try{if(f.size>5000000)throw Error('5MB 이하 JSON만 불러올 수 있습니다.');const data=validate(JSON.parse(await f.text()));show(data);save(data);archive();}
+ catch(error){say('불러오기 실패: '+error.message);}
+ event.target.value='';
+});
+document.getElementById('demo').addEventListener('click',()=>{
+ current=null;list.innerHTML=example;notice.textContent='화면 확인용 가상 기사 3건입니다. 실제 뉴스가 아닙니다.';
+ document.querySelectorAll('button.original').forEach(b=>b.disabled=false);
+ document.querySelectorAll('.metric strong')[0].textContent='예시 화면';document.querySelectorAll('.metric strong')[1].textContent='3건';
+ document.getElementById('news-heading').textContent='브리핑 · 가상 예시';resetFilter();say('가상 예시 화면으로 돌아왔습니다. 저장된 실제 데이터는 유지됩니다.');
+});
+try{const stored=JSON.parse(localStorage.getItem(historyKey)||'[]');if(Array.isArray(stored))history=stored.slice(0,30).map(validate);}catch{history=[];}
+const embedded=document.getElementById('briefing-data');
+if(embedded){try{const data=validate(JSON.parse(embedded.textContent));show(data);save(data);}catch(e){say('자동 제공 데이터 오류: '+e.message);filter();}}
+else if(history.length)show(history[0]);else filter();
+</script></body>
+</html>
