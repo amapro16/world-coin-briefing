@@ -52,20 +52,31 @@ if(candidates.length){
  const modelList=await catalog.json();
  const available=new Set((modelList.models||[]).filter(m=>m.supportedGenerationMethods?.includes('generateContent')).map(m=>m.name.replace(/^models\//,'')));
  const allowed=['gemini-3.1-flash-lite','gemini-3.5-flash-lite','gemini-3.8-flash','gemini-2.5-flash-lite','gemini-2.5-flash'];
- const choices=[...new Set([model,...allowed])].filter(m=>allowed.includes(m));
+ const choices=[...new Set([...allowed,model])].filter(m=>allowed.includes(m));
  const chosen=choices.find(m=>available.has(m));
  if(!chosen)throw Error('호환 모델을 찾지 못했습니다. 사용 가능한 모델 이름: '+[...available].filter(m=>/flash/.test(m)).join(', '));
  model=chosen;console.log('사용 모델: '+model);
 
- const response=await fetch('https://generativelanguage.googleapis.com/v1beta/models/'+encodeURIComponent(model)+':generateContent',{
+ let response;
+ let lastDetail='';
+ for(const candidateModel of choices.filter(m=>available.has(m))){
+ model=candidateModel;console.log('요약 요청 모델: '+model);
+ response=await fetch('https://generativelanguage.googleapis.com/v1beta/models/'+encodeURIComponent(model)+':generateContent',{
   method:'POST',signal:AbortSignal.timeout(180000),
   headers:{'Content-Type':'application/json','x-goog-api-key':apiKey},
   body:JSON.stringify({systemInstruction:{parts:[{text:instruction}]},contents:[{role:'user',parts:[{text:JSON.stringify(candidates.map(a=>({id:a.id,title:a.title,excerpt:a.excerpt.slice(0,1600)})))}]}],generationConfig:{temperature:0.1,responseMimeType:'application/json',maxOutputTokens:16000,...(model.startsWith('gemini-2.5-')?{thinkingConfig:{thinkingBudget:0}}:{})}})
  });
- if(!response.ok){
+ if(response.ok)break;
+ let failure;try{failure=await response.json();}catch{failure={};}
+ const detail=String(failure.error?.message||failure.error?.status||'추가 메시지 없음').split(apiKey).join('[KEY REDACTED]').replace(/AIza[0-9A-Za-z_-]+/g,'[KEY REDACTED]').replace(/[\r\n]+/g,' ').slice(0,700);
+ lastDetail='모델 '+model+' / HTTP '+response.status+' / '+detail;
+ console.warn(lastDetail);
+ if(response.status!==404)break;
+ }
+ if(!response?.ok){
   const hints={400:'API 요청 형식 또는 키 설정을 확인하세요.',401:'API 키 인증을 확인하세요.',403:'키 권한 또는 API 사용 가능 지역을 확인하세요.',404:'GEMINI_MODEL 모델을 확인하세요.',429:'무료 사용량 한도에 도달했거나 이 모델의 할당량이 없습니다. AI Studio에서 무료 할당량을 확인한 뒤 다시 실행하세요.'};
-  // 오류 응답 본문에는 인증 정보가 포함될 수 있어 로그에 출력하지 않습니다.
-  throw Error('Gemini HTTP '+response.status+' — '+(hints[response.status]||'잠시 후 다시 실행하세요.')+' 기존 게시 내용은 유지됩니다.');
+  // 오류 코드와 키를 제거한 메시지만 출력합니다.
+  throw Error('Gemini HTTP '+response.status+' — '+(hints[response.status]||'잠시 후 다시 실행하세요.')+' 상세: '+lastDetail+' 기존 게시 내용은 유지됩니다.');
  }
  const result=await response.json();
  const output=result.candidates?.[0];
