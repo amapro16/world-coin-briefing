@@ -7,7 +7,7 @@ const validUrl=s=>{try{const u=new URL(s);return ['http:','https:'].includes(u.p
 const sources=[{name:'CoinWeek',url:'https://coinweek.com/feed/'},{name:'CoinNews.net',url:'https://www.coinnews.net/feed/'}];
 const apiKey=process.env.GEMINI_API_KEY;
 if(!apiKey)throw Error('GEMINI_API_KEY가 실행 환경에 없습니다. 워크플로 env 설정을 확인하세요.');
-const model=process.env.GEMINI_MODEL||'gemini-2.5-flash';
+let model=process.env.GEMINI_MODEL||'gemini-3.1-flash-lite';
 const errors=[];
 const results=await Promise.all(sources.map(async source=>{
  try{
@@ -43,10 +43,24 @@ const instruction = [
 ].join('\n');
 let articles=[];
 if(candidates.length){
+ // API 키로 사용할 수 있는 모델 목록에서 텍스트 생성 모델을 확인합니다.
+ // 요금표에 무료 등급이 명시된 모델만 후보로 사용하며 실제 할당량은 계정에 따릅니다.
+ const catalog=await fetch('https://generativelanguage.googleapis.com/v1beta/models?pageSize=1000',{
+  headers:{'x-goog-api-key':apiKey},signal:AbortSignal.timeout(30000)
+ });
+ if(!catalog.ok)throw Error('Gemini 모델 목록 조회 HTTP '+catalog.status+' — 키 권한과 API 사용 설정을 확인하세요.');
+ const modelList=await catalog.json();
+ const available=new Set((modelList.models||[]).filter(m=>m.supportedGenerationMethods?.includes('generateContent')).map(m=>m.name.replace(/^models\//,'')));
+ const allowed=['gemini-3.1-flash-lite','gemini-3.5-flash-lite','gemini-3.8-flash','gemini-2.5-flash-lite','gemini-2.5-flash'];
+ const choices=[...new Set([model,...allowed])].filter(m=>allowed.includes(m));
+ const chosen=choices.find(m=>available.has(m));
+ if(!chosen)throw Error('호환 모델을 찾지 못했습니다. 사용 가능한 모델 이름: '+[...available].filter(m=>/flash/.test(m)).join(', '));
+ model=chosen;console.log('사용 모델: '+model);
+
  const response=await fetch('https://generativelanguage.googleapis.com/v1beta/models/'+encodeURIComponent(model)+':generateContent',{
   method:'POST',signal:AbortSignal.timeout(180000),
   headers:{'Content-Type':'application/json','x-goog-api-key':apiKey},
-  body:JSON.stringify({systemInstruction:{parts:[{text:instruction}]},contents:[{role:'user',parts:[{text:JSON.stringify(candidates.map(a=>({id:a.id,title:a.title,excerpt:a.excerpt.slice(0,1600)})))}]}],generationConfig:{temperature:0.1,responseMimeType:'application/json',maxOutputTokens:10000,thinkingConfig:{thinkingBudget:0}}})
+  body:JSON.stringify({systemInstruction:{parts:[{text:instruction}]},contents:[{role:'user',parts:[{text:JSON.stringify(candidates.map(a=>({id:a.id,title:a.title,excerpt:a.excerpt.slice(0,1600)})))}]}],generationConfig:{temperature:0.1,responseMimeType:'application/json',maxOutputTokens:16000,...(model.startsWith('gemini-2.5-')?{thinkingConfig:{thinkingBudget:0}}:{})}})
  });
  if(!response.ok){
   const hints={400:'API 요청 형식 또는 키 설정을 확인하세요.',401:'API 키 인증을 확인하세요.',403:'키 권한 또는 API 사용 가능 지역을 확인하세요.',404:'GEMINI_MODEL 모델을 확인하세요.',429:'무료 사용량 한도에 도달했거나 이 모델의 할당량이 없습니다. AI Studio에서 무료 할당량을 확인한 뒤 다시 실행하세요.'};
