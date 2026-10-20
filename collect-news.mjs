@@ -75,6 +75,27 @@ const instruction = [
  'category는 신제품·발행, 판매·수요, 제도·정책 중 하나. coinType은 투자용 불리온 또는 불리온 수집형. country와 metal은 확인되지 않으면 빈 문자열.',
  'JSON 객체 {articles:[{id,relevant,title,summary,category,keywords,figures:[{label,value}],country,metal,coinType}]}만 출력한다. relevant=false 항목은 id와 relevant만 반환해도 된다.'
 ].join('\n');
+
+// 일시적인 서비스 혼잡만 재시도합니다. 인증 오류와 사용량 초과는 반복 요청하지 않습니다.
+let generationAttempts=0;
+async function generateWithRetry(endpoint,options){
+ let lastResponse;
+ for(let attempt=0;attempt<3 && generationAttempts<6;attempt++){
+  generationAttempts++;
+  try{
+   lastResponse=await fetch(endpoint,{...options,signal:AbortSignal.timeout(60000)});
+  }catch(error){
+   if(attempt===2||generationAttempts>=6)throw Error('Gemini 연결/응답 시간 초과. 기존 게시 내용은 유지합니다.');
+   console.warn('Gemini 연결 지연 — 잠시 후 재시도합니다.');
+   await new Promise(resolve=>setTimeout(resolve,attempt===0?3000:8000));continue;
+  }
+  if(![500,502,503,504].includes(lastResponse.status)||attempt===2||generationAttempts>=6)return lastResponse;
+  console.warn('Gemini HTTP '+lastResponse.status+' — '+(attempt+1)+'차 재시도 대기');
+  await new Promise(resolve=>setTimeout(resolve,attempt===0?3000:8000));
+ }
+ return lastResponse;
+}
+
 let articles=[];
 if(candidates.length){
  // API 키로 사용할 수 있는 모델 목록에서 텍스트 생성 모델을 확인합니다.
@@ -94,8 +115,9 @@ if(candidates.length){
  let response;
  let lastDetail='';
  for(const candidateModel of choices.filter(m=>available.has(m))){
+ if(generationAttempts>=6)break;
  model=candidateModel;console.log('요약 요청 모델: '+model);
- response=await fetch('https://generativelanguage.googleapis.com/v1beta/models/'+encodeURIComponent(model)+':generateContent',{
+ response=await generateWithRetry('https://generativelanguage.googleapis.com/v1beta/models/'+encodeURIComponent(model)+':generateContent',{
   method:'POST',signal:AbortSignal.timeout(180000),
   headers:{'Content-Type':'application/json','x-goog-api-key':apiKey},
   body:JSON.stringify({systemInstruction:{parts:[{text:instruction}]},contents:[{role:'user',parts:[{text:JSON.stringify(candidates.map(a=>({id:a.id,title:a.title,excerpt:a.excerpt.slice(0,1600)})))}]}],generationConfig:{temperature:0.1,responseMimeType:'application/json',maxOutputTokens:16000,...(model.startsWith('gemini-2.5-')?{thinkingConfig:{thinkingBudget:0}}:{})}})
@@ -105,7 +127,7 @@ if(candidates.length){
  const detail=String(failure.error?.message||failure.error?.status||'추가 메시지 없음').split(apiKey).join('[KEY REDACTED]').replace(/AIza[0-9A-Za-z_-]+/g,'[KEY REDACTED]').replace(/[\r\n]+/g,' ').slice(0,700);
  lastDetail='모델 '+model+' / HTTP '+response.status+' / '+detail;
  console.warn(lastDetail);
- if(response.status!==404)break;
+ if(![404,500,502,503,504].includes(response.status))break;
  }
  if(!response?.ok){
   const hints={400:'API 요청 형식 또는 키 설정을 확인하세요.',401:'API 키 인증을 확인하세요.',403:'키 권한 또는 API 사용 가능 지역을 확인하세요.',404:'GEMINI_MODEL 모델을 확인하세요.',429:'무료 사용량 한도에 도달했거나 이 모델의 할당량이 없습니다. AI Studio에서 무료 할당량을 확인한 뒤 다시 실행하세요.'};
