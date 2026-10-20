@@ -11,7 +11,7 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}
@@ -22,7 +22,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - name: RSS 수집 및 화면 갱신
+      - name: RSS 수집 및 한국어 요약
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
         run: node collect-news.mjs
       - name: 결과 저장
         run: |
