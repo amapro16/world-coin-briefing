@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T23:45:07.220Z",
+  "generatedAt": "2026-10-26T23:52:35.705Z",
   "demo": false,
   "errors": [],
   "sources": [
@@ -37,13 +37,13 @@
       "name": "PCGS News",
       "mode": "전문매체 뉴스 검색",
       "ok": true,
-      "candidates": 4
+      "candidates": 3
     },
     {
       "name": "미국 U.S. Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 1
+      "candidates": 2
     },
     {
       "name": "캐나다 Royal Canadian Mint",
@@ -61,12 +61,70 @@
       "name": "호주 Perth Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 18
+      "candidates": 26
     }
   ],
   "articles": [
     {
-      "title": "미 조폐국, 20주년 기념 마크가 포함된 2026년형 1/10온스 골드 버팔로 공개",
+      "title": "영국 왕립 조폐국, 2027년형 브리타니아 1/10온스 은 불리온 주화",
+      "originalTitle": "Britannia 2027 1/10oz Silver Bullion Coin - The Royal Mint",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdVB2LW84b3N6a0pMeEZrdkU3Z09zMk5kdmJwYVU2NS1iaHZRVTdCNnlkbzEwUUpDMDF1ejUyZGFNQlBlVkNiNFdXTXNMQ2tiakdRUFh3ang0Z3RBeU9CdVVXUXZ5VUdaVzZVRXpKVHVHLXBHQ2dXQldrUU0xV19ZNEZaVUk0MGR6Vkd1VVRDZjhuQ2hQMGRQVGMxMkxZaDJOb1dB?oc=5",
+      "published": "2026-10-26T12:00:48.000Z",
+      "publisher": "The Royal Mint",
+      "sourceName": "영국 The Royal Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "영국 왕립 조폐국에서 2027년형 브리타니아 1/10온스 은 불리온 주화를 선보였습니다. 투자용으로 제작된 해당 제품의 상세 정보는 원문을 통해 확인할 수 있습니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "브리타니아",
+        "영국 왕립 조폐국",
+        "불리온"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "1/10온스"
+        }
+      ],
+      "country": "영국",
+      "metal": "은",
+      "coinType": "불리온"
+    },
+    {
+      "title": "영국 왕립 조폐국, 2027년형 브리타니아 1/4온스 은 불리온 19개입 튜브 출시",
+      "originalTitle": "Britannia 2027 1/4oz Silver Bullion 19-Coin Tube - The Royal Mint",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOWhacG10cGdOTnNWVmYyZWY3TDA1dVNILWhEeG52TDVwLW5EUjhuR0xMN3R2bldVYktIV0pIcXhzdUtJaU0tTVFKSU1JYzEtTFJxR1dMWWR1RU03cTZ0NlJSa05RVmZ0dDUwUmNtUkVLYWN3V0VSODlzVmw3Q1ppWUQ3UWJnY2NocXk0Rm9VeTJJTnc1TlNCMDFpRTN2Z2pibEdMeVlsYVJXUnZ5RlV3ZHNmdlA?oc=5",
+      "published": "2026-10-26T01:56:28.000Z",
+      "publisher": "The Royal Mint",
+      "sourceName": "영국 The Royal Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "판매·수요",
+      "summary": "영국 왕립 조폐국이 2027년형 브리타니아 1/4온스 은 불리온 주화를 19개입 튜브 단위로 판매합니다. 투자용 제품의 상세 구성은 원문을 통해 확인 가능합니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "브리타니아",
+        "영국 왕립 조폐국",
+        "불리온"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "1/4온스"
+        },
+        {
+          "label": "구성",
+          "value": "19개입 튜브"
+        }
+      ],
+      "country": "영국",
+      "metal": "은",
+      "coinType": "불리온"
+    },
+    {
+      "title": "미국 조폐국, 20주년 기념 마크가 포함된 2026년형 1/10온스 골드 버팔로 공개",
       "originalTitle": "US Mint Reveals 2026 1/10-Ounce Gold Buffalo With 20th Anniversary Mark",
       "url": "https://www.coinnews.net/2026/10/25/us-mint-reveals-1-10-ounce-gold-buffalo-20th/",
       "published": "2026-10-25T17:27:10.000Z",
@@ -74,7 +132,7 @@
       "sourceName": "CoinNews.net",
       "collectionMode": "직접 RSS",
       "category": "신제품·발행",
-      "summary": "미국 조폐국이 2026년형 1/10온스 골드 버팔로 주화의 이미지를 공개했습니다. 해당 주화는 시리즈 20주년을 기념하는 특별한 프라이비 마크가 새겨져 있으며 12월 10일에 출시될 예정입니다. 2008년 이후 처음으로 발행되는 분수 단위 골드 버팔로이자 시리즈 내 두 번째 리버스 프루프 주화입니다.",
+      "summary": "미국 조폐국이 2026년형 1/10온스 골드 버팔로 주화의 이미지를 공개했습니다. 이번 제품은 시리즈 20주년을 기념하는 특별한 프라이비 마크가 새겨져 있으며, 12월 10일 출시될 예정입니다. 2008년 이후 처음으로 발행되는 분할 중량 골드 버팔로이자, 시리즈 내 두 번째 리버스 프루프 주화입니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "https://www.coinnews.net/wp-content/uploads/2026/10/20th-Anniversary-2026-W-5-Reverse-Proof-American-Gold-Buffalo-bg.jpg",
       "keywords": [
@@ -86,6 +144,10 @@
         {
           "label": "중량",
           "value": "1/10온스"
+        },
+        {
+          "label": "출시일",
+          "value": "12월 10일"
         }
       ],
       "country": "미국",
@@ -101,13 +163,13 @@
       "sourceName": "호주 Perth Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "호주 퍼스 조폐국이 2026년 크리스마스를 기념하는 2온스 은화 신제품을 출시했습니다. 진저브레드를 테마로 한 수집형 주화로, 상세 발행 정보는 원문을 참조하시기 바랍니다.",
+      "summary": "호주 퍼스 조폐국이 2026년 크리스마스를 기념하는 2온스 은화를 출시했습니다. 진저브레드를 테마로 한 이 수집형 주화의 상세 내용은 원문에서 확인 가능합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "퍼스 조폐국",
         "크리스마스",
-        "은화"
+        "기념주화"
       ],
       "figures": [
         {
@@ -120,48 +182,21 @@
       "coinType": "기념주화"
     },
     {
-      "title": "영국 왕립 조폐국, 2027년형 브리타니아 1/2온스 은화 튜브 판매",
-      "originalTitle": "Britannia 2027 1/2oz Silver Bullion 25-Coin Tube - The Royal Mint",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPS3kwVC1oT054NnR0TC1JcHNHZXRHeHdiUDdsQ3NNNjFlYTVSVXhnTUpJV05DRXhDbVE4dnVuTzcxUWhNaTR0bEItT1RCeUVQX0tzd1lBcTJfNVdVaVJfRllMRXZLUVZxRjBQMHVKUmRpc004ZDJlem9SamlFOXcwWmlhTUY0SXNWRzBRSmVka3NGTnlMcGZ4c25VZUwtSzIwWEdEZVVrM2NaWFN4M2V3MQ?oc=5",
-      "published": "2026-10-24T12:04:11.000Z",
-      "publisher": "The Royal Mint",
-      "sourceName": "영국 The Royal Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "영국 왕립 조폐국이 2027년형 브리타니아 1/2온스 은화 25개입 튜브 상품을 출시했습니다. 투자용 불리온 제품으로 구성된 해당 상품의 세부 정보는 원문에서 확인할 수 있습니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "영국 왕립 조폐국",
-        "브리타니아",
-        "불리온"
-      ],
-      "figures": [
-        {
-          "label": "중량",
-          "value": "1/2온스"
-        }
-      ],
-      "country": "영국",
-      "metal": "은",
-      "coinType": "불리온"
-    },
-    {
       "title": "캐나다 왕립 조폐국, 티라노사우루스 1온스 은화 출시",
       "originalTitle": "T. rex – 1 oz. Fine Silver Coin - The Royal Canadian Mint",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMGxCUDkwSGthZ3BwRURFWVlCbWhwSXl0VjNzdkJqdEk4Y3VyMGQ3MUc5ZmRuTTNCNTl2X1p2aE5qN294dkJDem5JeXNQQVc1cEFuYmt3OFNaLU12MDZ1eXR2T05WS284MHhZWlRZSWE4Z0V5eGlXUnprYm1qMWcwZVNVNA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIX2pyVzFxTWJxQ09rTUlqbTBnVzctR3dlWEIwY2hldnp0VjEwbW9MaEg3cENGWTVyRk4xUUxhNzdLYWVIeklRM0RYdFRmZjVMeXctNVFoNWVwWUZfc2tBREQzdkxEdFRURi1jNmY3eDBoUWRK?oc=5",
       "published": "2026-10-22T16:19:09.000Z",
       "publisher": "The Royal Canadian Mint",
       "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국에서 티라노사우루스를 주제로 한 1온스 은화 신제품을 선보였습니다. 제품에 대한 세부 사양 및 발행 정보는 원문 확인이 필요합니다.",
+      "summary": "캐나다 왕립 조폐국에서 티라노사우루스를 주제로 한 1온스 순은 기념주화를 출시했습니다. 제품에 대한 세부 사양 및 발행 정보는 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "캐나다 왕립 조폐국",
         "은화",
-        "티라노사우루스"
+        "기념주화"
       ],
       "figures": [
         {
@@ -174,29 +209,7 @@
       "coinType": "기념주화"
     },
     {
-      "title": "미 조폐국, 2026년 게티즈버그 연설 쿼터 주화 발행",
-      "originalTitle": "2026 Gettysburg Address Quarter Brings Lincoln’s Historic Words to America’s Pocket Change",
-      "url": "https://coinweek.com/2026-gettysburg-address-quarter-brings-lincolns-historic-words-to-americas-pocket-change/",
-      "published": "2026-10-22T00:27:19.000Z",
-      "publisher": "CoinWeek",
-      "sourceName": "CoinWeek",
-      "collectionMode": "직접 RSS",
-      "category": "신제품·발행",
-      "summary": "미국 조폐국이 2026년 10월 21일, 게티즈버그 연설을 기념하는 쿼터 주화를 발행했습니다. 이는 미국 건국 250주년 기념 유통 주화 시리즈의 다섯 번째이자 마지막 주화입니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "https://coinweek.com/wp-content/uploads/2026/10/featured_gettysburg.jpg",
-      "keywords": [
-        "미국 조폐국",
-        "쿼터",
-        "기념주화"
-      ],
-      "figures": [],
-      "country": "미국",
-      "metal": "",
-      "coinType": "기념주화"
-    },
-    {
-      "title": "캐나다 왕립 조폐국, 필리그리 씨 앤 서피스 은화 출시",
+      "title": "캐나다 왕립 조폐국, 필리그리 씨 앤 서피스 순은 기념주화 출시",
       "originalTitle": "Filigree Sea & Surface - Fine Silver Coin - The Royal Canadian Mint",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWXU3WlN2LU1naXZVYkYwQTdra20zR01DM3JNdmRwVGgyZzNVNkNqNEpUWXFLRlJ5eE9BOGRNbExEUTdtNEF2akpQNFpRWDV1bk4wM2NCbjlmb29ZN19ENEp2cWwxeG00S3FsLXVoTEdhaU4xUG9WQ1BrSlVNM29QMm9DYXN6TTQzd05fdWc0MXE?oc=5",
       "published": "2026-10-21T14:59:06.000Z",
@@ -204,13 +217,13 @@
       "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국에서 필리그리(세공) 기법을 적용한 은화 신제품을 출시했습니다. 제품의 상세 사양은 원문 확인이 필요합니다.",
+      "summary": "캐나다 왕립 조폐국에서 필리그리 기법을 적용한 '씨 앤 서피스(Sea & Surface)' 순은 기념주화를 출시했습니다. 제품의 상세 정보는 원문에서 확인할 수 있습니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "캐나다 왕립 조폐국",
         "은화",
-        "필리그리"
+        "기념주화"
       ],
       "figures": [],
       "country": "캐나다",
@@ -218,29 +231,7 @@
       "coinType": "기념주화"
     },
     {
-      "title": "필라델피아 조폐국, 미국 건국 250주년 기념 행사 개최",
-      "originalTitle": "Philadelphia Mint Hosts Three America 250 Meet-and-Greet Events",
-      "url": "https://www.coinnews.net/2026/10/14/philadelphia-mint-america-250-events/",
-      "published": "2026-10-15T01:09:15.000Z",
-      "publisher": "CoinNews.net",
-      "sourceName": "CoinNews.net",
-      "collectionMode": "직접 RSS",
-      "category": "제도·정책",
-      "summary": "필라델피아 조폐국이 미국 건국 250주년을 기념하여 세 차례의 대면 행사를 개최합니다. 방문객들은 조폐국 직원들과 만나 주화 제조 공정 및 기념주화 생산 과정에 대해 소통할 수 있습니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "https://www.coinnews.net/wp-content/uploads/2014/08/US-Mint-in-Philadelphia.jpg",
-      "keywords": [
-        "필라델피아 조폐국",
-        "250주년",
-        "기념 행사"
-      ],
-      "figures": [],
-      "country": "미국",
-      "metal": "",
-      "coinType": "기념주화"
-    },
-    {
-      "title": "역사 및 문화를 기념하는 신규 기념주화 3종 출시",
+      "title": "역사, 문화, HEMA를 기념하는 3종의 신규 기념주화 발행",
       "originalTitle": "Three New Commemorative Coins Celebrate History, Culture, and HEMA - Numismatic News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMlZEV2pqTFVkeUtxZkdoZzM1OE5MdnVfdTVGOFcxMEpnbWNFdGdza2lIRE0yY0szOXh0N3Roc19pc2NjOV9Pb28tMzhLLU1GOEY4N3RXcUhIY0NlM2JibTRxekEzc3FhNkk0N3gySXBXX1U4TGt3alhxQ2hCRG9iWEVlVWlsbXRJYUNNdkJYVkt0ZF9TQ3VRcXFPaw?oc=5",
       "published": "2026-10-06T07:00:00.000Z",
@@ -248,7 +239,7 @@
       "sourceName": "Numismatic News / World Coin News",
       "collectionMode": "전문매체 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "역사와 문화, HEMA(역사적 유럽 무술)를 주제로 한 세 가지 새로운 기념주화가 출시되었습니다. 제품의 상세 사양은 원문 확인이 필요합니다.",
+      "summary": "역사와 문화, 그리고 역사적 유럽 무술(HEMA)을 주제로 한 3종의 새로운 기념주화가 발행되었습니다. 각 주화의 구체적인 디자인과 발행 수량 등은 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -270,7 +261,7 @@
       "sourceName": "Coin World",
       "collectionMode": "전문매체 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "영국 왕립 조폐국이 2027년형 소버린 불리온 주화를 네 가지 사이즈로 출시했습니다. 투자용으로 발행된 해당 제품군의 상세 정보는 원문을 통해 확인할 수 있습니다.",
+      "summary": "영국 왕립 조폐국이 2027년형 소버린 불리온 주화를 4가지 사이즈로 발행합니다. 투자용으로 공급되는 해당 제품군의 상세 사양은 원문을 참조하시기 바랍니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -282,6 +273,33 @@
       "country": "영국",
       "metal": "금",
       "coinType": "불리온"
+    },
+    {
+      "title": "퍼스 조폐국, 2026년형 버밀리온 피닉스 3온스 은화 출시",
+      "originalTitle": "Vermilion Phoenix 2026 3oz Silver Coin - The Perth Mint",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNY2I3RU9QemxyQUlaTnVhT2RWVXV2TnpySVRBSEFmdENtamg3SEF2eWN4TkJnU1NDc0VpRzAxMC1EUHFJMTI1Z2JDVk5UUVdSX3g0UkUyNl9ZbFo4cHA4ZTJCMFNycS1pclBod3BrcmlrYjVYMjROQmdDYmE0ZlZvYVRfVmJrTDhVRXRwbzl1WndJY05yYUtxMG9IR1VEdE1SQW04WjdYNUdfa3NmSTlWd1dhRnBnSFE?oc=5",
+      "published": "2026-09-19T12:57:33.000Z",
+      "publisher": "The Perth Mint",
+      "sourceName": "호주 Perth Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "퍼스 조폐국에서 2026년형 버밀리온 피닉스(주작) 3온스 은화를 출시했습니다. 수집형 주화의 상세 사양은 원문 확인이 필요합니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "퍼스 조폐국",
+        "은화",
+        "기념주화"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "3온스"
+        }
+      ],
+      "country": "호주",
+      "metal": "은",
+      "coinType": "기념주화"
     }
   ]
 }
