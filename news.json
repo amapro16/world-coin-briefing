@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T23:56:33.894Z",
+  "generatedAt": "2026-10-29T23:56:58.210Z",
   "demo": false,
   "errors": [],
   "sources": [
@@ -13,7 +13,7 @@
       "name": "CoinNews.net",
       "mode": "직접 RSS",
       "ok": true,
-      "candidates": 2
+      "candidates": 1
     },
     {
       "name": "CoinsWeekly / SIXBID",
@@ -37,13 +37,13 @@
       "name": "PCGS News",
       "mode": "전문매체 뉴스 검색",
       "ok": true,
-      "candidates": 2
+      "candidates": 1
     },
     {
       "name": "미국 U.S. Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 2
+      "candidates": 1
     },
     {
       "name": "캐나다 Royal Canadian Mint",
@@ -55,16 +55,65 @@
       "name": "영국 The Royal Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 19
+      "candidates": 16
     },
     {
       "name": "호주 Perth Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 25
+      "candidates": 28
     }
   ],
   "articles": [
+    {
+      "title": "퍼스 조폐국, 2026년형 진저브레드 크리스마스 2온스 은화 출시",
+      "originalTitle": "Gingerbread Christmas 2026 2oz Silver Coin - The Perth Mint",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkZLS1BZQ0gzSGc5WGhTeDF0T0pUeUR2UTFWcWRHejlnYWdVbE5kQkc0eGszSDlFR052UlBxT19ldGc3MldLaFRtd3Fiek9YRThRM3lKc1hRNDN3Wjh2R3NqSXA0THVOTWFocXdzN194SFY1SWZHWjlPN2x6dW51bG1vZ0E5VmpHLXZNRzdoVnRUd2hQSFFiS1ZBMkdiblBNSzVxNmoxZkZnaWZ3S1I1SmNFN1U?oc=5",
+      "published": "2026-10-29T15:56:25.000Z",
+      "publisher": "The Perth Mint",
+      "sourceName": "호주 Perth Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "호주 퍼스 조폐국이 2026년 크리스마스를 기념하는 2온스 은화 제품을 선보였다. 진저브레드를 주제로 한 이번 기념주화의 세부 정보는 원문에서 확인할 수 있다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "퍼스 조폐국",
+        "기념주화",
+        "크리스마스"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "2온스"
+        }
+      ],
+      "country": "호주",
+      "metal": "은",
+      "coinType": "기념주화"
+    },
+    {
+      "title": "NGC, 2027년부터 '올해의 주화상(COTY)' 운영 주관",
+      "originalTitle": "NGC Takes Over the Coin of the Year Awards in 2027, A New Era for Numismatic Excellence",
+      "url": "https://coinweek.com/ngc-takes-over-the-coin-of-the-year-awards-in-2027-a-new-era-for-numismatic-excellence/",
+      "published": "2026-10-28T10:13:05.000Z",
+      "publisher": "CoinWeek",
+      "sourceName": "CoinWeek",
+      "collectionMode": "직접 RSS",
+      "category": "제도·정책",
+      "summary": "세계적인 주화 인증 기관인 NGC(Numismatic Guaranty Company)가 2027년부터 권위 있는 '올해의 주화상(Coin of the Year Awards)' 운영을 맡게 된다. 이번 변화를 통해 주화 디자인 평가 및 시상 프로그램에 새로운 리더십과 변화가 도입될 예정이다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "https://coinweek.com/wp-content/uploads/2026/10/coty.webp",
+      "keywords": [
+        "NGC",
+        "올해의 주화상",
+        "주화 인증"
+      ],
+      "figures": [],
+      "country": "",
+      "metal": "",
+      "coinType": "기념주화"
+    },
     {
       "title": "퍼스 조폐국, 2027년 염소의 해 1/5온스 금화 세트 출시",
       "originalTitle": "Chinese 2027 Goat 1/5oz Gold Coin Set - The Perth Mint",
@@ -74,7 +123,7 @@
       "sourceName": "호주 Perth Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "호주 퍼스 조폐국에서 2027년 염소의 해를 기념하는 1/5온스 금화 세트를 선보였습니다. 제품의 상세 구성 및 발행 정보는 원문 확인이 필요합니다.",
+      "summary": "퍼스 조폐국이 2027년 염소의 해를 기념하는 1/5온스 금화 세트를 출시했다. 해당 제품의 구성 및 상세 정보는 원문 확인이 필요하다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -101,7 +150,7 @@
       "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국에서 의회 도서관 설립 150주년을 기념하는 1온스 순은 기념주화를 출시했습니다. 해당 제품에 대한 상세한 사양 및 발행 정보는 원문 확인이 필요합니다.",
+      "summary": "캐나다 왕립 조폐국에서 의회 도서관 설립 150주년을 기념하는 1온스 순은 기념주화를 출시했다. 해당 제품에 대한 상세한 사양 및 판매 정보는 원문 확인이 필요하다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -120,7 +169,7 @@
       "coinType": "기념주화"
     },
     {
-      "title": "미국 조폐국, 20주년 기념 마크가 포함된 2026년형 1/10온스 골드 버팔로 공개",
+      "title": "미국 조폐국, 20주년 기념 2026년형 1/10온스 골드 버팔로 공개",
       "originalTitle": "US Mint Reveals 2026 1/10-Ounce Gold Buffalo With 20th Anniversary Mark",
       "url": "https://www.coinnews.net/2026/10/25/us-mint-reveals-1-10-ounce-gold-buffalo-20th/",
       "published": "2026-10-25T17:27:10.000Z",
@@ -128,7 +177,7 @@
       "sourceName": "CoinNews.net",
       "collectionMode": "직접 RSS",
       "category": "신제품·발행",
-      "summary": "미국 조폐국이 2026년 12월 10일 출시 예정인 2026-W 5달러 리버스 프루프 아메리칸 골드 버팔로의 이미지를 공개했습니다. 이번 제품은 20주년을 기념하는 특별한 프라이비 마크가 새겨져 있는 것이 특징입니다. 2008년 이후 처음으로 발행되는 분할 중량 골드 버팔로이자, 시리즈 내 두 번째 리버스 프루프 주화입니다.",
+      "summary": "미국 조폐국이 2026년 12월 10일 출시 예정인 2026-W 5달러 리버스 프루프 아메리칸 골드 버팔로 주화의 이미지를 공개했다. 이번 제품은 골드 버팔로 시리즈의 20주년을 기념하는 특별한 프라이비 마크가 새겨져 있다. 2008년 이후 처음으로 발행되는 소수 단위(fractional) 골드 버팔로 주화이며, 시리즈 중 두 번째 리버스 프루프 제품이다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "https://www.coinnews.net/wp-content/uploads/2026/10/20th-Anniversary-2026-W-5-Reverse-Proof-American-Gold-Buffalo-bg.jpg",
       "keywords": [
@@ -159,7 +208,7 @@
       "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국에서 '평화와 자유의 알레고리'를 주제로 한 순은 기념주화를 출시했습니다. 제품의 상세 사양은 원문 확인이 필요합니다.",
+      "summary": "캐나다 왕립 조폐국이 '평화와 자유의 알레고리'를 주제로 한 순은 기념주화를 발행했다. 제품의 상세 사양은 원문을 통해 확인할 수 있다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -173,34 +222,34 @@
       "coinType": "기념주화"
     },
     {
-      "title": "퍼스 조폐국, 2026년 진저브레드 크리스마스 2온스 은화 출시",
-      "originalTitle": "Gingerbread Christmas 2026 2oz Silver Coin - The Perth Mint",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORkZLS1BZQ0gzSGc5WGhTeDF0T0pUeUR2UTFWcWRHejlnYWdVbE5kQkc0eGszSDlFR052UlBxT19ldGc3MldLaFRtd3Fiek9YRThRM3lKc1hRNDN3Wjh2R3NqSXA0THVOTWFocXdzN194SFY1SWZHWjlPN2x6dW51bG1vZ0E5VmpHLXZNRzdoVnRUd2hQSFFiS1ZBMkdiblBNSzVxNmoxZkZnaWZ3S1I1SmNFN1U?oc=5",
-      "published": "2026-10-24T16:13:22.000Z",
-      "publisher": "The Perth Mint",
-      "sourceName": "호주 Perth Mint",
+      "title": "캐나다 왕립 조폐국, 티라노사우루스(T. rex) 1온스 순은화 출시",
+      "originalTitle": "T. rex – 1 oz. Fine Silver Coin - The Royal Canadian Mint",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIX2pyVzFxTWJxQ09rTUlqbTBnVzctR3dlWEIwY2hldnp0VjEwbW9MaEg3cENGWTVyRk4xUUxhNzdLYWVIeklRM0RYdFRmZjVMeXctNVFoNWVwWUZfc2tBREQzdkxEdFRURi1jNmY3eDBoUWRK?oc=5",
+      "published": "2026-10-22T16:19:09.000Z",
+      "publisher": "The Royal Canadian Mint",
+      "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "퍼스 조폐국에서 2026년 크리스마스를 기념하는 2온스 진저브레드 테마 은화를 출시했습니다. 제품의 상세 정보는 원문 확인이 필요합니다.",
+      "summary": "캐나다 왕립 조폐국이 공룡 티라노사우루스를 테마로 한 1온스 순은 기념주화를 출시했다. 상세 사양은 원문 확인이 필요하다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
-        "퍼스 조폐국",
+        "캐나다 왕립 조폐국",
         "기념주화",
         "은화"
       ],
       "figures": [
         {
           "label": "중량",
-          "value": "2온스"
+          "value": "1온스"
         }
       ],
-      "country": "호주",
+      "country": "캐나다",
       "metal": "은",
       "coinType": "기념주화"
     },
     {
-      "title": "역사, 문화, HEMA를 기념하는 3종의 신규 기념주화 발표",
+      "title": "역사·문화·HEMA 기념하는 신규 기념주화 3종 출시",
       "originalTitle": "Three New Commemorative Coins Celebrate History, Culture, and HEMA - Numismatic News",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMlZEV2pqTFVkeUtxZkdoZzM1OE5MdnVfdTVGOFcxMEpnbWNFdGdza2lIRE0yY0szOXh0N3Roc19pc2NjOV9Pb28tMzhLLU1GOEY4N3RXcUhIY0NlM2JibTRxekEzc3FhNkk0N3gySXBXX1U4TGt3alhxQ2hCRG9iWEVlVWlsbXRJYUNNdkJYVkt0ZF9TQ3VRcXFPaw?oc=5",
       "published": "2026-10-06T07:00:00.000Z",
@@ -208,7 +257,7 @@
       "sourceName": "Numismatic News / World Coin News",
       "collectionMode": "전문매체 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "역사와 문화, 그리고 역사적 유럽 무술(HEMA)을 주제로 한 3종의 새로운 기념주화가 발표되었습니다. 각 주화의 구체적인 사양은 원문 확인이 필요합니다.",
+      "summary": "역사, 문화, 그리고 역사적 유럽 무술(HEMA)을 주제로 한 3종의 새로운 기념주화가 출시되었다. 각 제품의 상세 정보는 원문에서 확인할 수 있다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -220,6 +269,33 @@
       "country": "",
       "metal": "",
       "coinType": "기념주화"
+    },
+    {
+      "title": "퍼스 조폐국, 호주 루나 시리즈 III 2026년 말의 해 1온스 금 불리온 출시",
+      "originalTitle": "Australian Lunar Series III 2026 Year of the Horse 1oz Gold Bullion Coin - The Perth Mint",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNnBGZlVpWGNVcTJxTWtucEdyQWRuM1NlLTVnS1V5WkFYR09HcGRYWlhCUlM1cUptV2Zad3R5NWtJVzRrQnRNY0Y5Ql9janEzY1ZOdkNPWjBkZ2VFb2MwZjhmUkNxb1VzZWhQc1dHak4xZzI4LU5lMm1DVHRkSXdDa3FidWRDemlRODllNWRwSmgyUU1YQTJyclVqSHd4VmZY?oc=5",
+      "published": "2026-09-23T17:54:45.000Z",
+      "publisher": "The Perth Mint",
+      "sourceName": "호주 Perth Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "퍼스 조폐국이 호주 루나 시리즈 III의 일환으로 2026년 말의 해를 기념하는 1온스 금 불리온 주화를 출시했다. 투자용 불리온 제품으로, 상세 정보는 원문에서 확인할 수 있다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "퍼스 조폐국",
+        "불리온",
+        "말의 해"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "1온스"
+        }
+      ],
+      "country": "호주",
+      "metal": "금",
+      "coinType": "불리온"
     }
   ]
 }
