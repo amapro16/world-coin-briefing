@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T23:56:01.784Z",
+  "generatedAt": "2026-11-09T23:57:49.565Z",
   "demo": false,
   "errors": [],
   "sources": [
@@ -25,7 +25,7 @@
       "name": "Numismatic News / World Coin News",
       "mode": "전문매체 뉴스 검색",
       "ok": true,
-      "candidates": 3
+      "candidates": 5
     },
     {
       "name": "Coin World",
@@ -43,7 +43,7 @@
       "name": "미국 U.S. Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 1
+      "candidates": 2
     },
     {
       "name": "캐나다 Royal Canadian Mint",
@@ -55,26 +55,48 @@
       "name": "영국 The Royal Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 10
+      "candidates": 6
     },
     {
       "name": "호주 Perth Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 22
+      "candidates": 21
     }
   ],
   "articles": [
     {
+      "title": "중국, 금화 판매 증가 및 주얼리 수요 감소",
+      "originalTitle": "Around the World: Gold Coins Sales Up, Jewelry Down in China - Numismatic News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0V6SVoyM2g3ZENSV1g1OGowd0VjaXFZWklreW9BbTE4aVdiOHQzamk0QS1PZGNjU08wU3N5ZTFoWjM1TmdGd0sxZUpFdkhWTkZXMXdGRXFrQkhYby1yUTAySjE2bnF2VWYyX3RnaU4yMUExc29OZ0s4TUxzdVJsdnBKTmdxSFZFZ2ZKRy1uVDFsQkU?oc=5",
+      "published": "2026-11-09T17:44:53.000Z",
+      "publisher": "Numismatic News",
+      "sourceName": "Numismatic News / World Coin News",
+      "collectionMode": "전문매체 뉴스 검색",
+      "category": "판매·수요",
+      "summary": "최근 중국 시장에서 금화에 대한 판매는 증가한 반면, 주얼리 부문의 수요는 감소하는 추세를 보이고 있습니다. 시장의 구체적인 수치나 원인 분석은 원문 확인이 필요합니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "중국",
+        "금화",
+        "시장 동향"
+      ],
+      "figures": [],
+      "country": "중국",
+      "metal": "금",
+      "coinType": "불리온"
+    },
+    {
       "title": "캐나다 왕립 조폐국, 100만 달러 주화 20주년 기념 10kg 순금화 공개",
       "originalTitle": "Tribute to the Million Dollar Coin: 20th Anniversary (2007-2027) – 10 kg Pure Gold Coin - The Royal Canadian Mint",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSllnRjNZR1ZPMWZjRG16X2JaLTR6UjVkYzJzWmxveU0ySnJfQWR5SEM4MVdFYS14TWJici1jYlp5bk9ZbUFKZnR0VUVubnI4Y0M4RVd1bEpqb3h4NlZWaEtWUjRMcHJiU2hmSnpTeGxwOEJvTXcyUWkzUXloSV9VbGZ3MGxXVE5pTWNVWDhuRk12RWlJUzlhM1ZBekliNHEtWDU3UlJaSHktbEpwV2JDQkxTSmpoSmVVdTdUakJ3?oc=5",
-      "published": "2026-11-07T17:34:25.000Z",
+      "published": "2026-11-09T17:29:54.000Z",
       "publisher": "The Royal Canadian Mint",
       "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국이 100만 달러 주화의 20주년(2007-2027)을 기념하여 10kg 순금 주화를 선보였습니다. 해당 제품은 기념비적인 주화를 기리기 위해 제작되었습니다. 세부 정보는 원문 확인이 필요합니다.",
+      "summary": "캐나다 왕립 조폐국이 100만 달러 주화의 20주년(2007-2027)을 기념하여 10kg 순금화를 선보였습니다. 이번 기념 주화는 과거의 상징적인 제품을 기리기 위해 제작되었습니다. 세부적인 발행 한도나 판매 정보는 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -93,7 +115,56 @@
       "coinType": "기념주화"
     },
     {
-      "title": "캐나다 왕립 조폐국, 2027년 로도스의 거상 기념 은화 출시",
+      "title": "영국 왕립 조폐국, 프랑켄슈타인 2026 1온스 금 불리온 출시",
+      "originalTitle": "Frankenstein 2026 1oz Gold Bullion Coin - The Royal Mint",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNDhVdGZaNzUyVVBMZW8zMGpKT1RZaU5uLUNYWGR4VFUxOWRSc1RWVFhzdXBhdHB5Umd1bXowTUNTaUFLWUdXMW1PMjU5WGJFbUYzQVdEM253dV9RU1NpOFFSYmdNVklaanFtRnhvTjRQQmRSZWRJQ2dWZTlUeWlFckNwa3ctQl9PMjNTeDdTdnI1TFphU1V5ZkF1ZkN4OWl3X1NmOQ?oc=5",
+      "published": "2026-11-09T12:46:54.000Z",
+      "publisher": "The Royal Mint",
+      "sourceName": "영국 The Royal Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "영국 왕립 조폐국이 2026년형 프랑켄슈타인 1온스 금 불리온 주화를 출시했습니다. 해당 제품은 투자용 불리온으로 발행되었습니다. 구체적인 발행량 등은 원문 확인이 필요합니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "영국 왕립 조폐국",
+        "불리온",
+        "프랑켄슈타인"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "1온스"
+        }
+      ],
+      "country": "영국",
+      "metal": "금",
+      "coinType": "불리온"
+    },
+    {
+      "title": "영국 왕립 조폐국, 187년 만에 '우나와 사자' 불리온 주화 부활",
+      "originalTitle": "From Six-Figure Rarity to Silver Bullion: Royal Mint Revives Una and the Lion",
+      "url": "https://coinweek.com/from-six-figure-rarity-to-silver-bullion-royal-mint-revives-una-and-the-lion/",
+      "published": "2026-11-09T05:34:33.000Z",
+      "publisher": "CoinWeek",
+      "sourceName": "CoinWeek",
+      "collectionMode": "직접 RSS",
+      "category": "신제품·발행",
+      "summary": "영국 왕립 조폐국이 1839년 윌리엄 와이언의 전설적인 디자인인 '우나와 사자(Una and the Lion)'를 활용한 불리온 주화를 2026년 11월 9일 출시합니다. SD 불리온과의 독점 파트너십을 통해 판매될 예정입니다. 187년 만에 다시 선보이는 디자인으로 수집가들의 관심을 모으고 있습니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "https://coinweek.com/wp-content/uploads/2026/11/UnaAndTheLion-PushNotification-512x256-1.jpg",
+      "keywords": [
+        "영국 왕립 조폐국",
+        "불리온",
+        "우나와 사자"
+      ],
+      "figures": [],
+      "country": "영국",
+      "metal": "",
+      "coinType": "불리온"
+    },
+    {
+      "title": "캐나다 왕립 조폐국, 2027년 로도스의 거상 은화 출시",
       "originalTitle": "Colossus of Rhodes - 2027 Fine Silver Coin - The Royal Canadian Mint",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQWUxxZnNJTVJnN2llRDJLQjREM09jRFJUdVVBN29KYlctYkVZMzdhNlVRdlc3Y0lmRnFmXy0zSFQzSXRrd0FMZmlzNDBheDhBWmJEMGxrOXlDZVprQUVsa1JhTWNWb19LNEwwOXAtazB6Z3lYMTM1VXlPOWlVdlJJZzJreTVuUQ?oc=5",
       "published": "2026-11-06T17:48:34.000Z",
@@ -101,13 +172,13 @@
       "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국이 2027년형 로도스의 거상 기념 은화를 출시했습니다. 수집용으로 제작된 제품으로 보입니다. 세부 정보는 원문 확인이 필요합니다.",
+      "summary": "캐나다 왕립 조폐국이 2027년형 로도스의 거상 기념 은화를 출시했습니다. 수집용으로 제작된 제품이며, 상세 정보는 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "캐나다 왕립 조폐국",
-        "은화",
-        "기념주화"
+        "기념주화",
+        "로도스의 거상"
       ],
       "figures": [],
       "country": "캐나다",
@@ -115,7 +186,7 @@
       "coinType": "기념주화"
     },
     {
-      "title": "미국 조폐국, 11월 신제품으로 다이아몬드 필드 달러 및 트럼프 금화 출시",
+      "title": "미 조폐국, 11월 신제품으로 다이아몬드 필드 달러 및 트럼프 금화 발표",
       "originalTitle": "Diamond Field Dollars, Trump Gold Coin Lead November U.S. Mint Releases",
       "url": "https://www.coinnews.net/2026/11/06/diamond-field-dollars-trump-gold-coin-for-nov/",
       "published": "2026-11-06T13:52:52.000Z",
@@ -123,43 +194,30 @@
       "sourceName": "CoinNews.net",
       "collectionMode": "직접 RSS",
       "category": "신제품·발행",
-      "summary": "미국 조폐국이 11월 출시 일정에 다이아몬드 필드 모건 및 피스 실버 달러 세트와 트럼프 대통령을 기념하는 250달러 금화를 포함했습니다. 이번 제품들은 미국의 250주년을 기념하기 위해 기획되었습니다. 이 외에도 세미퀸센테니얼 쿼터 수집용 롤과 백, 허버트 후버 기념 은메달 등이 출시될 예정입니다.",
+      "summary": "미국 조폐국이 11월 출시 일정으로 다이아몬드 필드 모건 및 피스 실버 달러 세트와 트럼프 대통령을 기념하는 250달러 금화를 공개했습니다. 이번 신제품들은 미국의 건국 250주년을 기념하기 위해 기획되었습니다. 또한 허버트 후버 대통령을 기리는 대통령 은메달과 트럼프 달러 1,000개입 백 등 다양한 수집용 제품이 포함되어 있습니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "https://www.coinnews.net/wp-content/uploads/2026/11/US-Mint-November-2026-Coin-Products.jpg",
       "keywords": [
-        "미국 조폐국",
+        "미 조폐국",
         "기념주화",
-        "다이아몬드 필드"
+        "신제품"
       ],
-      "figures": [],
+      "figures": [
+        {
+          "label": "트럼프 금화 액면가",
+          "value": "250달러"
+        },
+        {
+          "label": "트럼프 달러 백 단위",
+          "value": "1,000개입"
+        }
+      ],
       "country": "미국",
       "metal": "금, 은",
       "coinType": "기념주화"
     },
     {
-      "title": "미국 조폐국, 2026년 모건 및 피스 달러에 최초로 '다이아몬드 필드' 마감 적용",
-      "originalTitle": "2026 Morgan and Peace Dollars Debut the Mint’s First Diamond Field Finish",
-      "url": "https://coinweek.com/2026-morgan-and-peace-dollars-debut-the-mints-first-diamond-field-finish/",
-      "published": "2026-11-06T04:12:02.000Z",
-      "publisher": "CoinWeek",
-      "sourceName": "CoinWeek",
-      "collectionMode": "직접 RSS",
-      "category": "신제품·발행",
-      "summary": "미국 조폐국이 2026년형 모건 및 피스 달러에 새로운 '다이아몬드 필드' 마감 기법을 도입했습니다. 반복되는 다이아몬드 패턴이 여러 각도에서 빛을 반사하도록 설계되었습니다. 조폐국에 따르면 이전의 미국 주화에서는 볼 수 없었던 새로운 마감 방식입니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "https://coinweek.com/wp-content/uploads/2026/11/diamond_set.webp",
-      "keywords": [
-        "미국 조폐국",
-        "모건 달러",
-        "피스 달러"
-      ],
-      "figures": [],
-      "country": "미국",
-      "metal": "은",
-      "coinType": "기념주화"
-    },
-    {
-      "title": "캐나다 왕립 조폐국, 2027년 웨스트민스터 사원 장미 창 기념 은화 출시",
+      "title": "캐나다 왕립 조폐국, 2027년 웨스트민스터 사원 장미 창 은화 출시",
       "originalTitle": "Rose Window - Westminster Abbey - 2027 Fine Silver Coin - The Royal Canadian Mint",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNd1ROVWlwYkV3ZGhYdjdtOTBUYTUzTEJyVGtRSXF3c0NmN1ItUjRTZ0l0c2F2Rm0zd19WaFo5WW1US2hhUlRTaVlLUllkLUVESXpUYmR2SjVnMEVEaDhXQktna0oycVluaHloTVVaWUljdlh5ZDlwcmR1dThpZzlDblpBWUdZRzhNV2dtbzNLaVlZcWxJ?oc=5",
       "published": "2026-11-04T23:05:33.000Z",
@@ -167,13 +225,13 @@
       "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국이 2027년 웨스트민스터 사원의 장미 창을 주제로 한 기념 은화를 출시했습니다. 수집용 제품으로 보입니다. 세부 정보는 원문 확인이 필요합니다.",
+      "summary": "캐나다 왕립 조폐국이 2027년형 웨스트민스터 사원의 장미 창을 주제로 한 기념 은화를 출시했습니다. 수집용 제품이며, 상세 사양은 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "캐나다 왕립 조폐국",
-        "은화",
-        "기념주화"
+        "기념주화",
+        "웨스트민스터 사원"
       ],
       "figures": [],
       "country": "캐나다",
@@ -181,7 +239,29 @@
       "coinType": "기념주화"
     },
     {
-      "title": "퍼스 조폐국, 2027년 호랑이의 해 기념 0.5g 금화 출시",
+      "title": "헝가리, 1956년 혁명 기념 은화 발행",
+      "originalTitle": "Hungary silver coin marks 1956 revolt - CoinWorld",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSFJSRFhtbFN1US0tMXE5LUN0MGRFNnZnZFZzclFqVEVBTVhZOXQ1M2hnV3FwRFc2al8tOW10QTJ6YTNGNmRyUzJSMWpyVG1yZkZWaC1kdHBUc09OWVdpejdaN2daZHRWNFp3RjBCZW9pUVhmTGd4eWNrTG93c2dkOUMxR1BHRGs?oc=5",
+      "published": "2026-11-03T13:01:42.000Z",
+      "publisher": "CoinWorld",
+      "sourceName": "Coin World",
+      "collectionMode": "전문매체 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "헝가리에서 1956년 혁명을 기념하는 은화가 발행되었습니다. 해당 제품에 대한 구체적인 사양이나 발행량 등 세부 정보는 원문 확인이 필요합니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "헝가리",
+        "기념주화",
+        "1956년 혁명"
+      ],
+      "figures": [],
+      "country": "헝가리",
+      "metal": "은",
+      "coinType": "기념주화"
+    },
+    {
+      "title": "퍼스 조폐국, 2027년 염소의 해 0.5g 금화 출시",
       "originalTitle": "Australian Lunar Series III 2027 Year of the Goat 0.5g Gold Coin in Card - The Perth Mint",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPWGhyOExzb0ZKa3hKVVZ6VkFqeXU5WHZLeGpubG1Xb0JEbVZaeHE2NTZtRnNsc2tLYk9jSEpacWk5a041VXN5R3RpU0JGd25oSFdDSTZGYmdfZFNWRzhmeUFTc2ZUUGFwOEVtNkgxZDVGRHI5U3dpYklBby1USm5iQ0g2YllaaXdFc21vekVnZkFBbXdPN2VfcUY1X0hDZ2h5UVd3MktxVWlWeXFjN3dWSFhuWF9DTWM5SGJBZ0ZVc3BfUTV1?oc=5",
       "published": "2026-11-03T01:41:43.000Z",
@@ -189,13 +269,13 @@
       "sourceName": "호주 Perth Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "퍼스 조폐국이 호주 루나 시리즈 III의 일환으로 2027년 염소의 해를 기념하는 0.5g 금화를 카드 형태로 출시했습니다. 수집가를 위한 한정판 제품으로 보입니다. 세부 정보는 원문 확인이 필요합니다.",
+      "summary": "호주 퍼스 조폐국이 2027년 염소의 해를 맞아 루나 시리즈 III의 일환으로 0.5g 금화를 카드 형태로 출시했습니다. 해당 제품은 수집용 기념주화로 분류됩니다. 세부 정보는 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "퍼스 조폐국",
         "루나 시리즈",
-        "금화"
+        "기념주화"
       ],
       "figures": [
         {
@@ -208,7 +288,34 @@
       "coinType": "기념주화"
     },
     {
-      "title": "퍼스 조폐국, 2027년 염소의 해 기념 1/5온스 금화 세트 출시",
+      "title": "미 조폐국, 2027년 워킹 독(Working Dogs) 5달러 금화 발행",
+      "originalTitle": "Working Dogs 2027 Uncirculated Five-Dollar Gold Coin - U.S. Mint (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbGlJalFWejNRb1ZxeHNKWUhQM3YtTGpZbzE3ZHoxR0hjdXFLQXVNck1aQTB5Z1E4TnFEM3ZkZGEzRXB5RVRhUEVoblpZdndBVG02YmNOZXROM1ZINXRjMDFlOVhSTzJMcTUweXNTUVhmeVFtZjg1U0dsMmJnOG9uSTZaenM1MXQ3ZFlZSk93?oc=5",
+      "published": "2026-11-02T16:04:42.000Z",
+      "publisher": "U.S. Mint (.gov)",
+      "sourceName": "미국 U.S. Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "미국 조폐국이 2027년형 워킹 독(Working Dogs) 5달러 금화를 발행합니다. 해당 제품은 미사용(Uncirculated) 상태로 출시되는 기념주화입니다. 세부 사양은 원문 확인이 필요합니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "미 조폐국",
+        "기념주화",
+        "워킹 독"
+      ],
+      "figures": [
+        {
+          "label": "액면가",
+          "value": "5달러"
+        }
+      ],
+      "country": "미국",
+      "metal": "금",
+      "coinType": "기념주화"
+    },
+    {
+      "title": "퍼스 조폐국, 중국 2027년 염소의 해 1/5온스 금화 세트 출시",
       "originalTitle": "Chinese 2027 Goat 1/5oz Gold Coin Set - The Perth Mint",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQRUVNRVFYcEkzZ2VUaUlrTC1qLWNIMXM0bEp1a3hNejhVUm1RMEQ1Z3owU1R3ZUZvYVQ3c3hoR3VwMV82ajBjNmotMDJ4aEM5TTlPWUh6d2VjTUkzdVM2eERhSjVWMEstZ2pMWjhGRW1DSjZSd1dvdGpxWVFYV0hqeDNQYnVqbU8zbE9OUER1ZEg5WEFjX2o4OGMxWkxnS3pNMWtZVXRQZ0VqSUJYUnVnQ3ZpOHo4X0gtcnp2MVFkWERWSDRoc0dzc3ZWWWhYUHNO?oc=5",
       "published": "2026-10-27T01:49:41.000Z",
@@ -216,13 +323,13 @@
       "sourceName": "호주 Perth Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "퍼스 조폐국이 2027년 염소의 해를 기념하는 1/5온스 금화 세트를 출시했습니다. 수집용 제품으로 보입니다. 세부 정보는 원문 확인이 필요합니다.",
+      "summary": "호주 퍼스 조폐국이 중국 2027년 염소의 해를 기념하는 1/5온스 금화 세트를 출시했습니다. 수집용 기념주화로 분류되며, 상세 내용은 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "퍼스 조폐국",
-        "금화",
-        "기념주화"
+        "기념주화",
+        "염소의 해"
       ],
       "figures": [
         {
@@ -235,7 +342,7 @@
       "coinType": "기념주화"
     },
     {
-      "title": "미국 조폐국, 20주년 기념 마크가 포함된 2026년형 1/10온스 골드 버팔로 공개",
+      "title": "미 조폐국, 20주년 기념 2026년형 1/10온스 골드 버팔로 공개",
       "originalTitle": "US Mint Reveals 2026 1/10-Ounce Gold Buffalo With 20th Anniversary Mark",
       "url": "https://www.coinnews.net/2026/10/25/us-mint-reveals-1-10-ounce-gold-buffalo-20th/",
       "published": "2026-10-25T17:27:10.000Z",
@@ -243,13 +350,13 @@
       "sourceName": "CoinNews.net",
       "collectionMode": "직접 RSS",
       "category": "신제품·발행",
-      "summary": "미국 조폐국이 12월 10일 출시 예정인 2026년형 1/10온스 리버스 프루프 아메리칸 골드 버팔로의 이미지를 공개했습니다. 이 주화에는 20주년을 기념하는 특별한 프라이비 마크가 새겨져 있습니다. 2008년 이후 처음으로 발행되는 분할 중량 골드 버팔로이자 시리즈 내 두 번째 리버스 프루프 제품입니다.",
+      "summary": "미국 조폐국이 12월 10일 출시 예정인 2026년형 1/10온스 골드 버팔로 리버스 프루프 주화를 공개했습니다. 이번 제품은 골드 버팔로 시리즈 20주년을 기념하는 특별한 프라이비 마크가 새겨져 있습니다. 2008년 이후 처음으로 발행되는 분할 중량 골드 버팔로 주화입니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "https://www.coinnews.net/wp-content/uploads/2026/10/20th-Anniversary-2026-W-5-Reverse-Proof-American-Gold-Buffalo-bg.jpg",
       "keywords": [
-        "미국 조폐국",
+        "미 조폐국",
         "골드 버팔로",
-        "리버스 프루프"
+        "기념주화"
       ],
       "figures": [
         {
@@ -262,84 +369,25 @@
       "coinType": "기념주화"
     },
     {
-      "title": "영국 왕립 조폐국, 2025 브리타니아 1/2온스 실버 프루프 주화 출시",
-      "originalTitle": "Britannia 2025 UK 1/2oz Silver Proof Coin - The Royal Mint",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaVZxXzNoWFZTUVdQR2NEX3dpMUlnejVXMWJDbFFHcTZaQmt6dVVsM1ZWSHZpVFZtYmtjY3BYbTJROGtqa2RGclcxUkc0d2djSElWOVFCY1pHTk9xcUdQUDA4QUhRampfcVBUYzN6elotWEk1SzBqZ1VHeldBbmZZVw?oc=5",
-      "published": "2026-10-19T03:54:46.000Z",
+      "title": "영국 왕립 조폐국, 2027년형 하프 소버린 금 불리온 출시",
+      "originalTitle": "The Half-Sovereign 2027 Gold Bullion Coin in Blister - The Royal Mint",
+      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNaGFmYzFsREI4bDNKVW9YRmt3RjAyMzEybV9HcGlRcUVQdTZxX3BpYTF3RFgyUy0tV3djbGZNSzljZVpfaFZnZEJ5Y19RMkx0Qzg2aWxLYTJvWDRiVWw2UDFkUF9SRllFTkpOcFJ3c0VEMzRhR2M3Z3NIOVV5OVZCN1pYcTJhc0RYemE3clVNYzNOT2xBbU92WG9XOVA4UTdKQkF4aTlpMm5JZVBXMS1vOS1aUDNFQmdNWEVzMExHcll0ejBiQ3owVGZSVHEyOEhEaDNSc0hOaHlKbW96LVo2WnMtTk45RFk?oc=5",
+      "published": "2026-10-24T19:10:42.000Z",
       "publisher": "The Royal Mint",
       "sourceName": "영국 The Royal Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "영국 왕립 조폐국이 2025년형 브리타니아 1/2온스 실버 프루프 주화를 출시했습니다. 수집용 프루프 제품입니다. 세부 정보는 원문 확인이 필요합니다.",
+      "summary": "영국 왕립 조폐국이 블리스터 포장된 2027년형 하프 소버린 금 불리온 주화를 출시했습니다. 투자용 제품으로, 상세 정보는 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "영국 왕립 조폐국",
-        "브리타니아",
-        "프루프"
+        "불리온",
+        "하프 소버린"
       ],
-      "figures": [
-        {
-          "label": "중량",
-          "value": "1/2온스"
-        }
-      ],
+      "figures": [],
       "country": "영국",
-      "metal": "은",
-      "coinType": "기념주화"
-    },
-    {
-      "title": "영국 왕립 조폐국, 2026 로열 튜더 비스트 '로열 드래곤' 1온스 플래티넘 불리온 출시",
-      "originalTitle": "The Royal Tudor Beasts 2026 Royal Dragon 1oz Platinum Bullion Coin - The Royal Mint",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTE5DMVE3cXlRdXo5aTVCOGk1dXJWY21ybS1VS3RqNWVVWTRPNmxBY3h4a2NLby1aYjNwYnM0VFFGdWJ3SWZ4OTlINzZfM0I1SDhFajBzY2tadkdIVWdfYXMzbnpvQ2docDZmUXR2VFFZd2o0MUVmaVlZbHEta2NVS2FITmZ1Y19QVUQxcVloVDYxTDA2c2tjZmNkQ3hIQzJfQl9veExUdkFsZ2RtQ2tYZ1I4SDJZMWZ4S0JjenV0S2k?oc=5",
-      "published": "2026-10-11T01:11:29.000Z",
-      "publisher": "The Royal Mint",
-      "sourceName": "영국 The Royal Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "영국 왕립 조폐국이 로열 튜더 비스트 시리즈의 2026년형 '로열 드래곤' 1온스 플래티넘 불리온 주화를 출시했습니다. 투자용 불리온 제품입니다. 세부 정보는 원문 확인이 필요합니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "영국 왕립 조폐국",
-        "플래티넘",
-        "불리온"
-      ],
-      "figures": [
-        {
-          "label": "중량",
-          "value": "1온스"
-        }
-      ],
-      "country": "영국",
-      "metal": "플래티넘",
-      "coinType": "불리온"
-    },
-    {
-      "title": "퍼스 조폐국, 2027년 염소의 해 기념 2온스 실버 불리온 출시",
-      "originalTitle": "Australian Lunar Series III 2027 Year of the Goat 2oz Silver Bullion Coin - The Perth Mint",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPY21iTWRPQ1pJRnVBOEVvcHV4Vi12ZXhtTk50ZnVmaFhZa2d3Qzh1d3NnUzZyVmdIX2tGSjRBZWFGRWYzSjNibW1pUXRuNFhVS1ZNSGZKby1ESjZLaldQVXRkaGVkUHlYcXFucTFoUEs5NUszWVA3ZWZ0OExCQWMwYkVvTm9HcmlvYTkzRnFTdHk0VkV0amNzcHdiR2p5eEp3Q08tTVdrU1RNYm9VVFNCWGVIVjBTNFpxcUYxTlB1WFg5VTlaSVE?oc=5",
-      "published": "2026-09-08T05:58:39.000Z",
-      "publisher": "The Perth Mint",
-      "sourceName": "호주 Perth Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "퍼스 조폐국이 2027년 염소의 해를 기념하는 2온스 실버 불리온 주화를 출시했습니다. 투자용 불리온 제품입니다. 세부 정보는 원문 확인이 필요합니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "퍼스 조폐국",
-        "은화",
-        "불리온"
-      ],
-      "figures": [
-        {
-          "label": "중량",
-          "value": "2온스"
-        }
-      ],
-      "country": "호주",
-      "metal": "은",
+      "metal": "금",
       "coinType": "불리온"
     }
   ]
