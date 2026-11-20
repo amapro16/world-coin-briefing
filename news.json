@@ -1,9 +1,7 @@
 {
-  "generatedAt": "2026-11-19T00:11:34.683Z",
+  "generatedAt": "2026-11-20T00:04:36.717Z",
   "demo": false,
-  "errors": [
-    "호주 Perth Mint: HTTP 429"
-  ],
+  "errors": [],
   "sources": [
     {
       "name": "CoinWeek",
@@ -15,7 +13,7 @@
       "name": "CoinNews.net",
       "mode": "직접 RSS",
       "ok": true,
-      "candidates": 2
+      "candidates": 3
     },
     {
       "name": "CoinsWeekly / SIXBID",
@@ -27,7 +25,7 @@
       "name": "Numismatic News / World Coin News",
       "mode": "전문매체 뉴스 검색",
       "ok": true,
-      "candidates": 5
+      "candidates": 6
     },
     {
       "name": "Coin World",
@@ -39,7 +37,7 @@
       "name": "PCGS News",
       "mode": "전문매체 뉴스 검색",
       "ok": true,
-      "candidates": 3
+      "candidates": 2
     },
     {
       "name": "미국 U.S. Mint",
@@ -51,24 +49,55 @@
       "name": "캐나다 Royal Canadian Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 13
+      "candidates": 16
     },
     {
       "name": "영국 The Royal Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 11
+      "candidates": 15
     },
     {
       "name": "호주 Perth Mint",
       "mode": "공식 도메인 뉴스 검색",
-      "ok": false,
-      "error": "HTTP 429"
+      "ok": true,
+      "candidates": 20
     }
   ],
   "articles": [
     {
-      "title": "미국 조폐국, 건국 250주년 기념 은화 250개 12월 1일 경매 예정",
+      "title": "미국 조폐국, 트럼프 250달러 금화 및 달러화 주머니 출시",
+      "originalTitle": "U.S. Mint Releases $250 Trump Gold Coin, Dollar Bags",
+      "url": "https://www.coinnews.net/2026/11/19/mint-releases-250-trump-gold-coin/",
+      "published": "2026-11-19T15:00:41.000Z",
+      "publisher": "CoinNews.net",
+      "sourceName": "CoinNews.net",
+      "collectionMode": "직접 RSS",
+      "category": "신제품·발행",
+      "summary": "미국 조폐국이 도널드 트럼프 전 대통령을 기념하는 1온스 24K 금화와 1,000개 단위의 달러화 주머니를 출시했습니다. 이번 제품들은 미국의 건국 250주년을 기념하는 라인업의 일부로 포함되었습니다. 금화의 액면가는 250달러입니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "https://www.coinnews.net/wp-content/uploads/2026/11/1776-2026-W-250-Proof-President-Trump-Gold-Coin-Obverse-and-Reverse.jpg",
+      "keywords": [
+        "미국 조폐국",
+        "트럼프 금화",
+        "기념주화"
+      ],
+      "figures": [
+        {
+          "label": "금화 액면가",
+          "value": "250달러"
+        },
+        {
+          "label": "달러화 주머니 단위",
+          "value": "1,000개"
+        }
+      ],
+      "country": "미국",
+      "metal": "금",
+      "coinType": "기념주화"
+    },
+    {
+      "title": "미국 조폐국, 독립기념일 250주년 기념 은화 250개 경매 진행",
       "originalTitle": "U.S. Mint’s 250 Silver Quarters Head to December 1 Auction",
       "url": "https://coinweek.com/u-s-mints-250-silver-quarters-head-to-december-1-auction/",
       "published": "2026-11-18T19:58:16.000Z",
@@ -76,13 +105,13 @@
       "sourceName": "CoinWeek",
       "collectionMode": "직접 RSS",
       "category": "신제품·발행",
-      "summary": "미국 건국 250주년을 기념하여 제작된 2.5온스 은화 250개가 12월 1일 경매에 부쳐집니다. 해당 은화는 미국 조폐국을 대신하여 스택스 바우어스 갤러리에서 경매를 진행합니다. 전체 발행량은 250개로 한정되어 있으며, 액면가는 총 62.50달러입니다.",
+      "summary": "미국 조폐국이 건국 250주년을 기념하여 제작한 2.5온스 은화 250개를 12월 1일 경매에 부칩니다. 해당 은화는 독립기념일에 맞춰 발행되었으며, 전체 발행량인 250개가 스택스 바워스 갤러리를 통해 경매될 예정입니다. 액면가는 총 62.50달러입니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "https://coinweek.com/wp-content/uploads/2026/11/pcgs_Dec_ind_july-4-1200-x.webp",
       "keywords": [
         "미국 조폐국",
-        "기념은화",
-        "건국250주년"
+        "기념주화",
+        "경매"
       ],
       "figures": [
         {
@@ -90,7 +119,7 @@
           "value": "250개"
         },
         {
-          "label": "총 액면가",
+          "label": "액면가 합계",
           "value": "62.50달러"
         }
       ],
@@ -99,51 +128,7 @@
       "coinType": "기념주화"
     },
     {
-      "title": "영국 왕립 조폐국, 2027년형 쿼터 소버린 금 불리온 출시",
-      "originalTitle": "The Quarter-Sovereign 2027 Gold Bullion Coin - The Royal Mint",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZjh0bkxDVU1DZ21HZi03TDV6dWFPMlBZVGhrQVlhalowX1JpcjQzbnB3Nk9abG0zNjROalUyVGRlZHUtSEhQNmVRWXlyYVZpclpsY2RuWFRMajFhZWNIOXBHTGVZWVl1cnBWdWR5MzgxSngzekdIbEdsUzlRSjlNUU9QUHpESzRDOGduRl9LaGdfdkNoZ2pFd3k1d1hqaFpJaWxVQUtEeVF2al9kSzFpUkU2T1ZtVUlxRlhad05GemRjSTY4Sk1VdWlR?oc=5",
-      "published": "2026-11-16T05:19:28.000Z",
-      "publisher": "The Royal Mint",
-      "sourceName": "영국 The Royal Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "영국 왕립 조폐국에서 2027년형 쿼터 소버린 금 불리온 주화를 출시했습니다. 해당 제품은 투자용 불리온으로 발행되었습니다. 세부 사항은 원문 확인이 필요합니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "영국 왕립 조폐국",
-        "금 불리온",
-        "쿼터 소버린"
-      ],
-      "figures": [],
-      "country": "영국",
-      "metal": "금",
-      "coinType": "불리온"
-    },
-    {
-      "title": "영국 왕립 조폐국, 2027년형 하프 소버린 금 불리온(블리스터 포장) 출시",
-      "originalTitle": "The Half-Sovereign 2027 Gold Bullion Coin in Blister - The Royal Mint",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONWFSVUpGWlViZ1pIckw2Z2ZNLWoxSEEyaHJCbXNvNnBzeFcyWnFuakFNQjczNTNkVmRRcElra0s2MnlybVloVVF0dUtPNUliM0RIMFoxUmJIbGxJVFFPMVZBLTNpQ2dPMWk5dFZmRnBCa3NHNHRjRFhNdW16aDFjZTVILUZSWFRFRXpxNkZtdm1XODhIT09GMkhDZm1nbS0yWWVMOVlpX1k2VHFpcFdPQ0doaUNRNUFXUDdnQXV4VXZ1OEx5bndMZVAyVHc5a0R0QUtJNi1HMA?oc=5",
-      "published": "2026-11-16T02:48:40.000Z",
-      "publisher": "The Royal Mint",
-      "sourceName": "영국 The Royal Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "영국 왕립 조폐국이 2027년형 하프 소버린 금 불리온을 블리스터 포장 형태로 출시했습니다. 투자용으로 제작된 제품입니다. 세부 사항은 원문 확인이 필요합니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "영국 왕립 조폐국",
-        "금 불리온",
-        "하프 소버린"
-      ],
-      "figures": [],
-      "country": "영국",
-      "metal": "금",
-      "coinType": "불리온"
-    },
-    {
-      "title": "2027년 주화 및 불리온 판매세 면제 혜택 종료 위기",
+      "title": "2027년 주화 및 불리온 판매세 면제 혜택 위기",
       "originalTitle": "Coin/Bullion Sales Tax Exemptions at Risk In 2027 - Numismatic News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY0MzR0FzazJQckszTWNNa3BLREZBRzdqR3l6QVdVc3RWdmlfY0RPNGxQWEw1M2ZwWDJwUkdhaUZheU85Tm1Zd3BBRnVOakRHUGxnQmg2QnlqVC11djNfc3NCRkVRUDlMQ1BtVjBaMnNmZjdFU1pYU2htNFA0bFExa2tMTUFncTg?oc=5",
       "published": "2026-11-13T08:01:00.000Z",
@@ -151,13 +136,13 @@
       "sourceName": "Numismatic News / World Coin News",
       "collectionMode": "전문매체 뉴스 검색",
       "category": "제도·정책",
-      "summary": "2027년 주화 및 불리온에 적용되던 판매세 면제 혜택이 종료될 위기에 처했습니다. 관련 제도 변화가 수집가와 투자자들에게 미칠 영향에 대해 논의되고 있습니다. 자세한 내용은 원문 확인이 필요합니다.",
+      "summary": "2027년 주화 및 불리온 제품에 적용되던 판매세 면제 혜택이 폐지될 위험에 처해 있습니다. 관련 제도 변화에 대한 세부 내용은 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "판매세",
-        "면제 혜택",
-        "불리온"
+        "면제",
+        "제도"
       ],
       "figures": [],
       "country": "",
@@ -165,7 +150,7 @@
       "coinType": "불리온"
     },
     {
-      "title": "미국 조폐국, 11월 신제품으로 다이아몬드 필드 달러 및 트럼프 금화 출시",
+      "title": "미국 조폐국, 11월 신제품으로 다이아몬드 필드 달러 및 트럼프 금화 발표",
       "originalTitle": "Diamond Field Dollars, Trump Gold Coin Lead November U.S. Mint Releases",
       "url": "https://www.coinnews.net/2026/11/06/diamond-field-dollars-trump-gold-coin-for-nov/",
       "published": "2026-11-06T13:52:52.000Z",
@@ -173,13 +158,13 @@
       "sourceName": "CoinNews.net",
       "collectionMode": "직접 RSS",
       "category": "신제품·발행",
-      "summary": "미국 조폐국이 11월 출시 일정으로 다이아몬드 필드 모건 및 피스 은화 세트와 트럼프 대통령 기념 금화를 발표했습니다. 이번 신제품들은 미국 건국 250주년을 기념하는 의미를 담고 있습니다. 이 외에도 대통령 은메달과 트럼프 달러 1,000개입 가방 등이 포함되어 있습니다.",
+      "summary": "미국 조폐국이 11월 출시 일정으로 다이아몬드 필드 모건 및 피스 은화 세트와 트럼프 전 대통령 기념 금화를 공개했습니다. 이 제품들은 미국의 건국 250주년을 기념하기 위한 것입니다. 이 외에도 기념 쿼터 주화 롤과 주머니, 허버트 후버 대통령 은메달 등이 포함되어 있습니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "https://www.coinnews.net/wp-content/uploads/2026/11/US-Mint-November-2026-Coin-Products.jpg",
       "keywords": [
         "미국 조폐국",
         "기념주화",
-        "건국250주년"
+        "신제품"
       ],
       "figures": [],
       "country": "미국",
