@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T07:00:00.108Z",
+  "generatedAt": "2026-11-25T05:32:06.942Z",
   "demo": false,
   "errors": [],
   "sources": [
@@ -43,25 +43,25 @@
       "name": "미국 U.S. Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 4
+      "candidates": 5
     },
     {
       "name": "캐나다 Royal Canadian Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 14
+      "candidates": 15
     },
     {
       "name": "영국 The Royal Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 10
+      "candidates": 8
     },
     {
       "name": "호주 Perth Mint",
       "mode": "공식 도메인 뉴스 검색",
       "ok": true,
-      "candidates": 20
+      "candidates": 22
     }
   ],
   "articles": [
@@ -74,13 +74,13 @@
       "sourceName": "영국 The Royal Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "영국 왕립 조폐국에서 생일 축하 테마의 1g 금 불리온 바를 출시했습니다. 상세 내용은 원문 확인이 필요합니다.",
+      "summary": "영국 왕립 조폐국에서 생일 축하 테마의 1g 금 불리온 바를 출시했습니다. 선물용으로 적합한 소형 투자용 제품입니다. 상세 정보는 원문에서 확인 가능합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "영국 왕립 조폐국",
-        "금 불리온",
-        "생일 기념"
+        "불리온",
+        "금"
       ],
       "figures": [
         {
@@ -93,15 +93,15 @@
       "coinType": "불리온"
     },
     {
-      "title": "영국 왕립 조폐국, 2027년형 브리타니아 1/4온스 은화 출시",
-      "originalTitle": "Britannia 2027 1/4oz Silver Bullion Coin - The Royal Mint",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOGc5WnBwcUdiV3NrSnVBOERyS1NDTFZWNTZIenMyS19JOFpnODRkeHZ0RFhETENjLWZPdy1lUW0yUlhQNzBzX0xIZWpQcHRLUndjRTRsVDcwZUVUYWRKN1dlXzA5aUJPU3FaN2NubmhCTGx0LW1YN3hPbXVzLWJUTmkxWmlIaDljNUpnajd0R0o0dXJSX0Z5eHRrODgxa2R0b0RwVGFDWjN4UQ?oc=5",
-      "published": "2026-11-21T15:40:11.000Z",
+      "title": "영국 왕립 조폐국, 2027 브리타니아 1온스 은화 출시",
+      "originalTitle": "Britannia 2027 1oz Silver Bullion Coin - The Royal Mint",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdG1lay1QbGcyc2dVLW1qUXlKV0pockpxNkphRHF1Rzl1d0JQTXZ3dWFXZzRSMnhCRDN1SzNzcWQzdG4waVJ0YnoyamJ4UWNncVZaUkZOZktLWXd2bktlVjJRVHczM0dtbmhrLTZ2TzFDX0FMTjJwYUFRbFhnYkwxcEhVZG5DSFlSWXFxMi1NbjB0RC1WZ2d0MUJoTkZFZEN4?oc=5",
+      "published": "2026-11-21T21:25:33.000Z",
       "publisher": "The Royal Mint",
       "sourceName": "영국 The Royal Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "영국 왕립 조폐국이 2027년형 브리타니아 1/4온스 은화 불리온을 출시했습니다. 상세 정보는 원문을 참조하십시오.",
+      "summary": "영국 왕립 조폐국이 2027년형 브리타니아 1온스 은화 불리온 제품을 출시했습니다. 영국의 대표적인 투자용 은화 시리즈입니다. 상세 정보는 원문을 확인하시기 바랍니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -112,7 +112,7 @@
       "figures": [
         {
           "label": "중량",
-          "value": "1/4온스"
+          "value": "1온스"
         }
       ],
       "country": "영국",
@@ -120,7 +120,34 @@
       "coinType": "불리온"
     },
     {
-      "title": "미국 조폐국, 도널드 트럼프 대통령 기념 금화 및 달러 백 출시",
+      "title": "캐나다 왕립 조폐국, 100만 달러 주화 20주년 기념 10kg 금화 출시",
+      "originalTitle": "Tribute to the Million Dollar Coin: 20th Anniversary (2007-2027) – 10 kg Pure Gold Coin - The Royal Canadian Mint",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSllnRjNZR1ZPMWZjRG16X2JaLTR6UjVkYzJzWmxveU0ySnJfQWR5SEM4MVdFYS14TWJici1jYlp5bk9ZbUFKZnR0VUVubnI4Y0M4RVd1bEpqb3h4NlZWaEtWUjRMcHJiU2hmSnpTeGxwOEJvTXcyUWkzUXloSV9VbGZ3MGxXVE5pTWNVWDhuRk12RWlJUzlhM1ZBekliNHEtWDU3UlJaSHktbEpwV2JDQkxTSmpoSmVVdTdUakJ3?oc=5",
+      "published": "2026-11-21T18:48:21.000Z",
+      "publisher": "The Royal Canadian Mint",
+      "sourceName": "캐나다 Royal Canadian Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "캐나다 왕립 조폐국이 100만 달러 주화 발행 20주년을 기념하여 10kg 순금 기념주화를 출시했습니다. 2007년부터 2027년까지의 역사를 기념하는 대형 금화 제품입니다. 상세 사양은 원문을 참조하십시오.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "캐나다 왕립 조폐국",
+        "기념주화",
+        "순금"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "10kg"
+        }
+      ],
+      "country": "캐나다",
+      "metal": "금",
+      "coinType": "기념주화"
+    },
+    {
+      "title": "미국 조폐국, 도널드 트럼프 기념 금화 및 달러 백 출시",
       "originalTitle": "U.S. Mint Releases $250 Trump Gold Coin, Dollar Bags",
       "url": "https://www.coinnews.net/2026/11/19/mint-releases-250-trump-gold-coin/",
       "published": "2026-11-19T15:00:41.000Z",
@@ -128,22 +155,22 @@
       "sourceName": "CoinNews.net",
       "collectionMode": "직접 RSS",
       "category": "신제품·발행",
-      "summary": "미국 조폐국이 도널드 트럼프 대통령을 기념하는 1온스 24K 프루프 금화와 1,000개 단위의 달러 백을 출시했습니다. 이번 제품은 미국의 건국 250주년을 기념하는 라인업의 일환으로 판매가 시작되었습니다. 금화의 액면가는 250달러로 책정되었습니다.",
+      "summary": "미국 조폐국이 도널드 트럼프 전 대통령을 기념하는 두 가지 신제품을 출시했습니다. 1온스 24K 금화 프루프 제품과 함께 기존에 발행된 트럼프 달러 1,000개입 백이 포함됩니다. 이번 제품들은 미국의 건국 250주년을 기념하는 라인업의 일환으로 판매가 시작되었습니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "https://www.coinnews.net/wp-content/uploads/2026/11/1776-2026-W-250-Proof-President-Trump-Gold-Coin-Obverse-and-Reverse.jpg",
       "keywords": [
         "미국 조폐국",
         "트럼프 기념주화",
-        "프루프 금화"
+        "금화"
       ],
       "figures": [
         {
           "label": "금화 액면가",
-          "value": "250달러"
+          "value": "$250"
         },
         {
-          "label": "금화 중량",
-          "value": "1온스"
+          "label": "달러 백 구성",
+          "value": "1,000개"
         }
       ],
       "country": "미국",
@@ -151,7 +178,7 @@
       "coinType": "기념주화"
     },
     {
-      "title": "캐나다 왕립 조폐국, 2027년형 메이플 리프 0.5g 금화 출시",
+      "title": "캐나다 왕립 조폐국, 2027 아이코닉 메이플 리프 0.5g 금화 출시",
       "originalTitle": "Iconic Maple Leaf – 0.5g Pure Gold Coin (2027) - The Royal Canadian Mint",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdVIyQlhuRHVERVRSVlNGN2wyeEh1UWVVaXV4d05lWXBpcFU1RE9ZblJKd2trb2F6QjF4ckZqRk94X0M0eVZrZFR6bm9aS256LWduVkM0dmZOSHE1cHRVN2k2Z2ltbTBQRlJ5aEFFTl9SbGI2S2Zpb3ExVmJNM2N4cDdfUjh1eVFyZ2dXVDU2NFE?oc=5",
       "published": "2026-11-18T03:53:15.000Z",
@@ -159,7 +186,7 @@
       "sourceName": "캐나다 Royal Canadian Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국이 2027년형 아이코닉 메이플 리프 0.5g 순금 주화를 출시했습니다. 제품의 상세 사양은 원문을 참조하시기 바랍니다.",
+      "summary": "캐나다 왕립 조폐국이 2027년형 아이코닉 메이플 리프 0.5g 금화를 출시했습니다. 메이플 리프 시리즈의 소형 금화 제품으로 수집가들의 관심을 끌고 있습니다. 상세 정보는 원문을 확인하십시오.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -175,10 +202,91 @@
       ],
       "country": "캐나다",
       "metal": "금",
+      "coinType": "기념주화"
+    },
+    {
+      "title": "퍼스 조폐국, 2022 호주 에뮤 1온스 은화 출시",
+      "originalTitle": "Australian Emu 2022 1oz Silver Bullion Coin - The Perth Mint",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQTNfMDVXOHU4b1pFNjcxbmprZmFsaDlfT3BZcGRHOWpjTmJzU080SFI2R3NDWEQtWUpaWVV4Zm9EM3lDbFhHMXlYMTFlcG1ZMkFPMGxYZW4zQW5ueWRBQ3NaWlhPajJzUGtLWHNjNmtSSGhHQ1BIM01RZWhsOG5YdGRzM19LcjViSnp2aUM1bHhDTmI4X2VV?oc=5",
+      "published": "2026-11-17T03:44:39.000Z",
+      "publisher": "The Perth Mint",
+      "sourceName": "호주 Perth Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "호주 퍼스 조폐국에서 2022년형 에뮤 1온스 은화 불리온 제품을 출시했습니다. 호주의 상징인 에뮤를 디자인한 투자용 은화입니다. 상세 정보는 원문을 확인하시기 바랍니다.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "퍼스 조폐국",
+        "에뮤",
+        "은화"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "1온스"
+        }
+      ],
+      "country": "호주",
+      "metal": "은",
       "coinType": "불리온"
     },
     {
-      "title": "2027년 주화 및 불리온 판매세 면제 혜택 종료 위기",
+      "title": "퍼스 조폐국, 2026 호주 에뮤 1온스 은화 출시",
+      "originalTitle": "Australian Emu 2026 1oz Silver Bullion Coin - The Perth Mint",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUVVvZlN2OTdSMmg2RnpPcTVrQTd2WjBadE5tQnJBMUYzeEdGeHU2SXA3dUEtR3RSOGM0QlB1c05lZzFPQlVxVkd2RU9BNXlvei1JaXAtd2p2OVpXQ2hxOEN3Y0dsU0hQTGhmdElCeU1XMUVKUlpBbFp4dnhLV1NURjR3MGpZVC12ZklJMVI5NDNKcnRhdURn?oc=5",
+      "published": "2026-11-17T02:44:34.000Z",
+      "publisher": "The Perth Mint",
+      "sourceName": "호주 Perth Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "호주 퍼스 조폐국에서 2026년형 에뮤 1온스 은화 불리온 제품을 출시했습니다. 호주를 대표하는 투자용 은화 시리즈의 최신 제품입니다. 상세 정보는 원문을 확인하십시오.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "퍼스 조폐국",
+        "에뮤",
+        "은화"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "1온스"
+        }
+      ],
+      "country": "호주",
+      "metal": "은",
+      "coinType": "불리온"
+    },
+    {
+      "title": "캐나다 왕립 조폐국, '자연의 기쁨: 거미' 1온스 은화 출시",
+      "originalTitle": "Nature’s Delight: The Spider – 1 oz. Fine Silver Coin - The Royal Canadian Mint",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQXdxNDR6bXFoTW9CRHNSLXUzekVWaGJWdzA4OFJkVnlXc0RLQl8zNmxpalUwcXVLeTNuZktMMlhnMnN0VlV6ZlZuc0o0dXJnMW40bzR4bWdfZzBjUXNjaFJ6NEZBaTdGQjBYY1VhVFJwbDk2Ri05Z095UkVVUWVCWlhfZWw2c0tva3RMSFVPMGE?oc=5",
+      "published": "2026-11-15T08:00:00.000Z",
+      "publisher": "The Royal Canadian Mint",
+      "sourceName": "캐나다 Royal Canadian Mint",
+      "collectionMode": "공식 도메인 뉴스 검색",
+      "category": "신제품·발행",
+      "summary": "캐나다 왕립 조폐국이 자연을 테마로 한 '자연의 기쁨: 거미' 1온스 은화 기념주화를 출시했습니다. 수집용으로 제작된 디자인 주화입니다. 상세 정보는 원문을 확인하십시오.",
+      "summaryBasis": "RSS 제목·발췌",
+      "imageUrl": "",
+      "keywords": [
+        "캐나다 왕립 조폐국",
+        "기념주화",
+        "은화"
+      ],
+      "figures": [
+        {
+          "label": "중량",
+          "value": "1온스"
+        }
+      ],
+      "country": "캐나다",
+      "metal": "은",
+      "coinType": "기념주화"
+    },
+    {
+      "title": "2027년 주화 및 불리온 판매세 면제 혜택 위기",
       "originalTitle": "Coin/Bullion Sales Tax Exemptions at Risk In 2027 - Numismatic News",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOY0MzR0FzazJQckszTWNNa3BLREZBRzdqR3l6QVdVc3RWdmlfY0RPNGxQWEw1M2ZwWDJwUkdhaUZheU85Tm1Zd3BBRnVOakRHUGxnQmg2QnlqVC11djNfc3NCRkVRUDlMQ1BtVjBaMnNmZjdFU1pYU2htNFA0bFExa2tMTUFncTg?oc=5",
       "published": "2026-11-13T08:01:00.000Z",
@@ -186,12 +294,12 @@
       "sourceName": "Numismatic News / World Coin News",
       "collectionMode": "전문매체 뉴스 검색",
       "category": "제도·정책",
-      "summary": "주화 및 불리온 제품에 적용되던 판매세 면제 혜택이 2027년에 종료될 위험에 처해 있습니다. 관련 제도 변화에 대한 세부 내용은 원문 확인이 필요합니다.",
+      "summary": "2027년 주화 및 불리온 제품에 대한 판매세 면제 혜택이 축소되거나 폐지될 위험에 처해 있습니다. 관련 업계와 수집가들에게 영향을 미칠 수 있는 제도적 변화에 대한 우려가 제기되고 있습니다. 자세한 내용은 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "판매세",
-        "면제 혜택",
+        "면제",
         "불리온"
       ],
       "figures": [],
@@ -200,88 +308,7 @@
       "coinType": "불리온"
     },
     {
-      "title": "캐나다 왕립 조폐국, 2026년 Remembrance Day 1온스 은화",
-      "originalTitle": "Remembrance Day – 1 oz. Fine Silver Coin (2026) - The Royal Canadian Mint",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWlpKT2k0QWU2VUlOZF9sMGs3VDhiWGZQeDkzOUZwclJBVTF3N1UtVzZta2RYM0owSm1OR0xpNWdTRzNWOGwtMVZ5UWVudERVLWpyalhQV2lpUVpqWFJ0dGRkOXhaaWc3UHNRSm14cGE4V0RWMlZwRnA5MWdoUVFvVUdWczFwYXZGOFVWWTJKZzhhM2ZoVC0w?oc=5",
-      "published": "2026-11-11T08:00:00.000Z",
-      "publisher": "The Royal Canadian Mint",
-      "sourceName": "캐나다 Royal Canadian Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국에서 발행한 2026년 Remembrance Day 기념 1온스 은화입니다. 상세 내용은 원문 확인이 필요합니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "캐나다 왕립 조폐국",
-        "기념 은화",
-        "Remembrance Day"
-      ],
-      "figures": [
-        {
-          "label": "중량",
-          "value": "1온스"
-        }
-      ],
-      "country": "캐나다",
-      "metal": "은",
-      "coinType": "기념주화"
-    },
-    {
-      "title": "퍼스 조폐국, 2027년형 호주 캥거루 1온스 은화 튜브 판매",
-      "originalTitle": "Australian Kangaroo 2027 1oz Silver Bullion Coins in Tube - The Perth Mint",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWdhUDNxaWUzYjVIbkJaeGVPODNoeXFGTThPVEZyNG9LZmJZTXhRMXRyUTlVQlI2NUo5V2tjdTJaSWtwWTh6R2FMb0VtRlozN2FkRndtbXpHTUZQZmJwZTFldzJQM0c5cVc5dWdlODNTTWY4ckpVeWJIZkMwZlpTV3dFa2JxZnJBU0dyOTU5OFROZW5qcVp3MzkzZVFCa2tZSWI2TkFFanZ5RWdmR3o4?oc=5",
-      "published": "2026-11-10T21:35:23.000Z",
-      "publisher": "The Perth Mint",
-      "sourceName": "호주 Perth Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "호주 퍼스 조폐국이 2027년형 캥거루 1온스 은화 튜브 제품을 출시했습니다. 상세 정보는 원문을 확인하시기 바랍니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "퍼스 조폐국",
-        "캥거루 은화",
-        "불리온"
-      ],
-      "figures": [
-        {
-          "label": "중량",
-          "value": "1온스"
-        }
-      ],
-      "country": "호주",
-      "metal": "은",
-      "coinType": "불리온"
-    },
-    {
-      "title": "퍼스 조폐국, 2027년형 호주 캥거루 1/10온스 금화 출시",
-      "originalTitle": "Australian Kangaroo 2027 1/10oz Gold Bullion Coin - The Perth Mint",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPN25yWU1yOEgxckhkTzVXTFRfcnBxSmtmMl9xbl94TXpJaXJFTHVLZ0VYZW5vNVBFbHhjR3VZcnpmVWJ4SzFLZWFlbWlMdGJIOEpyU3k0YTRWRlZtbnlwT05HVTNxLUIwcXNZbmtLNm45SDB4VElJbzhHYzdwWURDUzA3cjBCQWlONzgzSkZWQkdpUzBXNy1ZcGZTYndiQS1vakdZTWd3?oc=5",
-      "published": "2026-11-10T15:13:17.000Z",
-      "publisher": "The Perth Mint",
-      "sourceName": "호주 Perth Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "퍼스 조폐국에서 2027년형 호주 캥거루 1/10온스 금화 불리온을 출시했습니다. 상세 정보는 원문을 확인하시기 바랍니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "퍼스 조폐국",
-        "캥거루 금화",
-        "불리온"
-      ],
-      "figures": [
-        {
-          "label": "중량",
-          "value": "1/10온스"
-        }
-      ],
-      "country": "호주",
-      "metal": "금",
-      "coinType": "불리온"
-    },
-    {
-      "title": "중국, 금화 수요 증가 및 주얼리 수요 감소",
+      "title": "중국, 금화 판매 증가 및 주얼리 수요 감소",
       "originalTitle": "Around the World: Gold Coins Sales Up, Jewelry Down in China - Numismatic News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPX0V6SVoyM2g3ZENSV1g1OGowd0VjaXFZWklreW9BbTE4aVdiOHQzamk0QS1PZGNjU08wU3N5ZTFoWjM1TmdGd0sxZUpFdkhWTkZXMXdGRXFrQkhYby1yUTAySjE2bnF2VWYyX3RnaU4yMUExc29OZ0s4TUxzdVJsdnBKTmdxSFZFZ2ZKRy1uVDFsQkU?oc=5",
       "published": "2026-11-09T08:00:00.000Z",
@@ -289,13 +316,13 @@
       "sourceName": "Numismatic News / World Coin News",
       "collectionMode": "전문매체 뉴스 검색",
       "category": "판매·수요",
-      "summary": "중국 시장에서 금화에 대한 수요는 증가하는 반면, 주얼리 부문의 수요는 감소하는 추세를 보이고 있습니다. 시장 동향에 대한 자세한 내용은 원문을 확인하십시오.",
+      "summary": "중국 시장에서 금화에 대한 판매 수요는 증가한 반면, 금 주얼리에 대한 수요는 감소하는 추세를 보이고 있습니다. 투자용 금화에 대한 관심이 높아지고 있는 시장 상황을 반영합니다. 자세한 분석은 원문을 참조하십시오.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "중국",
-        "금화 수요",
-        "시장 동향"
+        "금화",
+        "수요"
       ],
       "figures": [],
       "country": "중국",
@@ -303,21 +330,21 @@
       "coinType": "불리온"
     },
     {
-      "title": "캐나다 왕립 조폐국, Haunted Canada 시리즈 1온스 은화 출시",
-      "originalTitle": "Haunted Canada: Gibraltar Point Lighthouse – 1 oz. Fine Silver Coin - The Royal Canadian Mint",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWlA4V1psdU1DU19sYzE4TllBZkw5TlBsSkJGaVF1ZG9ZQVZqOWRib25PV0EzTUxjRlItUU94d0hyYjBEdVByQ1JBMW04OEs1TERJaE1fXy1UZzRhd3Q3XzNrb0FhanV3ZHlPZmxQeEVLc21GNVNDdmNnWm1DaWpBbGpMTmF5aC1Iek5TRnh2TjBSRlU5RDQxOXF4aEhTMWlGU3lCQw?oc=5",
-      "published": "2026-11-07T08:00:00.000Z",
-      "publisher": "The Royal Canadian Mint",
-      "sourceName": "캐나다 Royal Canadian Mint",
+      "title": "미국 조폐국, 2027 아메리칸 이글 1온스 금화(미유통) 출시",
+      "originalTitle": "American Eagle 2027 One Ounce Gold Uncirculated Coin - United States Mint (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQUy1NNDZSRm5kU3pZVUlLcGptR2lWSk9YTnJjR3F2OHk0Ujl4eG5kSWpzdXBnM3lNYVNRYlRxTFJfQi0yVkdGZmZIdmJaYWlSZTV5WU4tdW96Uy1GNkZ6X0NwelBaWXFPanp5VGVRejdzel9WNGhVdk83OXRJckk1bTlLS3lseHc3d1NodFZ3?oc=5",
+      "published": "2026-11-04T16:54:22.000Z",
+      "publisher": "United States Mint (.gov)",
+      "sourceName": "미국 U.S. Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "캐나다 왕립 조폐국이 Haunted Canada 시리즈의 일환으로 지브롤터 포인트 등대 1온스 은화를 출시했습니다. 상세 정보는 원문을 확인하시기 바랍니다.",
+      "summary": "미국 조폐국이 2027년형 아메리칸 이글 1온스 금화 미유통(Uncirculated) 버전을 출시했습니다. 투자용으로 널리 알려진 아메리칸 이글 시리즈의 최신 연도 제품입니다. 상세한 판매 정보는 조폐국 공식 홈페이지를 통해 확인할 수 있습니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
-        "캐나다 왕립 조폐국",
-        "기념 은화",
-        "Haunted Canada"
+        "아메리칸 이글",
+        "금화",
+        "미국 조폐국"
       ],
       "figures": [
         {
@@ -325,12 +352,12 @@
           "value": "1온스"
         }
       ],
-      "country": "캐나다",
-      "metal": "은",
-      "coinType": "기념주화"
+      "country": "미국",
+      "metal": "금",
+      "coinType": "불리온"
     },
     {
-      "title": "미국 조폐국, 2027년형 아메리칸 이글 1온스 은화(미유통) 출시",
+      "title": "미국 조폐국, 2027 아메리칸 이글 1온스 은화(미유통) 출시",
       "originalTitle": "American Eagle 2027 One Ounce Silver Uncirculated Coin - United States Mint (.gov)",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOU0NwSHBSVEFwSkllaWRWMzVWSzFWclJxTWRGVmVoaTB2UkpWMVotcXZwLWUtWTZKUEM0QXNsYzh1UzF3cEpHLVhfcno5T19xTV9oVUR0Wi1GQlJ1NzJOak45Qjl3MzdIUVNnQTZPdXBPRzR0LXpEcENnVzFpejY5US11SzZ4cC1UZUhzTi1ESnU?oc=5",
       "published": "2026-11-04T14:14:06.000Z",
@@ -338,13 +365,13 @@
       "sourceName": "미국 U.S. Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "미국 조폐국에서 2027년형 아메리칸 이글 1온스 은화(미유통 버전)를 출시했습니다. 제품에 대한 상세 정보는 공식 웹사이트를 통해 확인할 수 있습니다.",
+      "summary": "미국 조폐국이 2027년형 아메리칸 이글 1온스 은화 미유통(Uncirculated) 버전을 출시했습니다. 투자용으로 인기 있는 아메리칸 이글 시리즈의 최신 제품입니다. 상세 정보는 조폐국 공식 홈페이지에서 확인 가능합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
-        "미국 조폐국",
         "아메리칸 이글",
-        "은화"
+        "은화",
+        "미국 조폐국"
       ],
       "figures": [
         {
@@ -357,7 +384,7 @@
       "coinType": "불리온"
     },
     {
-      "title": "미국 조폐국, 리버스 프루프 금화 정보",
+      "title": "미국 조폐국, 리버스 프루프 금화 라인업",
       "originalTitle": "Gold Coins - Reverse Proof - United States Mint (.gov)",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nOFF1alpMR21Pc0pycS1SX3NUNVpKQ1ZqQ3IydlpBMU9IVldhRTBPOXBnTVJzUU1GR1htY2pSS2xMNWdhSnJ2S0M2TTNkczlCVkpWYUdUbTlJd2RPaUs3cEdlVzZGTzktOGlYdUFmakI1cVdzSDRR?oc=5",
       "published": "2026-11-03T22:52:45.000Z",
@@ -365,7 +392,7 @@
       "sourceName": "미국 U.S. Mint",
       "collectionMode": "공식 도메인 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "미국 조폐국에서 발행하는 리버스 프루프 금화에 대한 정보입니다. 상세 사양 및 구매 정보는 공식 웹사이트를 통해 확인 가능합니다.",
+      "summary": "미국 조폐국에서 리버스 프루프(Reverse Proof) 마감 처리된 금화 제품군을 소개하고 있습니다. 수집가들을 위한 특수 마감 처리된 기념주화 제품입니다. 상세 사양은 조폐국 홈페이지를 통해 확인 가능합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
@@ -379,33 +406,6 @@
       "coinType": "기념주화"
     },
     {
-      "title": "미국 조폐국, 2027년형 아메리칸 이글 1온스 은화(프루프) 출시",
-      "originalTitle": "American Eagle 2027 One Ounce Silver Proof Coin - United States Mint (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMG5kQXVKb3R1R0tZd0ExZzBMVEhENmg3dVRsbzljeTVwdTNxM2pHY1gtMVljbkFhNUd0S1JFd0hsdmRHeElLZ0ZtR0NGYnliYXhwc3hZUEdtZkVNSk4xeklqbVl0WDBRWF9BVDAzQTNydGVSTEI0ODJtcnRIRUlCWFFSYUc2Q2c?oc=5",
-      "published": "2026-11-03T18:39:58.000Z",
-      "publisher": "United States Mint (.gov)",
-      "sourceName": "미국 U.S. Mint",
-      "collectionMode": "공식 도메인 뉴스 검색",
-      "category": "신제품·발행",
-      "summary": "미국 조폐국에서 2027년형 아메리칸 이글 1온스 프루프 은화를 출시했습니다. 상세 정보는 공식 웹사이트를 통해 확인 가능합니다.",
-      "summaryBasis": "RSS 제목·발췌",
-      "imageUrl": "",
-      "keywords": [
-        "미국 조폐국",
-        "아메리칸 이글",
-        "프루프 은화"
-      ],
-      "figures": [
-        {
-          "label": "중량",
-          "value": "1온스"
-        }
-      ],
-      "country": "미국",
-      "metal": "은",
-      "coinType": "기념주화"
-    },
-    {
       "title": "헝가리, 1956년 혁명 기념 은화 발행",
       "originalTitle": "Hungary silver coin marks 1956 revolt - Coin World",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSFJSRFhtbFN1US0tMXE5LUN0MGRFNnZnZFZzclFqVEVBTVhZOXQ1M2hnV3FwRFc2al8tOW10QTJ6YTNGNmRyUzJSMWpyVG1yZkZWaC1kdHBUc09OWVdpejdaN2daZHRWNFp3RjBCZW9pUVhmTGd4eWNrTG93c2dkOUMxR1BHRGs?oc=5",
@@ -414,13 +414,13 @@
       "sourceName": "Coin World",
       "collectionMode": "전문매체 뉴스 검색",
       "category": "신제품·발행",
-      "summary": "헝가리에서 1956년 혁명을 기념하는 은화를 발행했습니다. 구체적인 발행 사양 및 판매 정보는 원문 확인이 필요합니다.",
+      "summary": "헝가리에서 1956년 혁명을 기념하는 새로운 은화가 발행되었습니다. 해당 주화는 역사적 사건을 기리기 위해 제작된 기념주화입니다. 세부 사양 및 발행 정보는 원문 확인이 필요합니다.",
       "summaryBasis": "RSS 제목·발췌",
       "imageUrl": "",
       "keywords": [
         "헝가리",
-        "기념 은화",
-        "1956년 혁명"
+        "기념주화",
+        "은화"
       ],
       "figures": [],
       "country": "헝가리",
